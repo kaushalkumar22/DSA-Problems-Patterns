@@ -1,2 +1,4 @@
-package algo_bitmanipulation;public class Max {
+package algo_bitmanipulation;
+
+public class Max {
 }
