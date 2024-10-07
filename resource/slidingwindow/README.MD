@@ -44,10 +44,10 @@ class Solution {
 
 ### FAQ:
 
-- **Why is the time complexity O(NlogN)?**
+- **Why is the time complexity O(NlogN)?**  
   The sorting takes O(NlogN). The two-pointer part only takes O(N) because both the pointers `i` and `j` traverse the array only once.
   
-- **Why is `(j - i + 1) * A[j] - sum <= k` valid?**
+- **Why is `(j - i + 1) * A[j] - sum <= k` valid?**  
   `(j - i + 1)` is the length of the window `[i, j]`. We want to increase all the numbers in the window to equal `A[j]`. The number of operations needed is `(j - i + 1) * A[j] - sum`, which should be `<= k`.
 
 ## Template 2: Sliding Window (Non-shrinkable)
