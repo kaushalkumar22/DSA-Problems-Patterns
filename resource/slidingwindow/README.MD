@@ -20,8 +20,7 @@ return ans;
 
 Essentially, we want to keep the window valid at the end of each outer for loop.
 
-### Example:
-- [1838. Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
+### Example: [1838. Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
 
 - **What should we use as the state?**  
 It should be the sum of numbers in the window.
