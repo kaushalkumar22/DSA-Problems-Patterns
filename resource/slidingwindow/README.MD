@@ -1,3 +1,5 @@
+Here’s the modified code and explanation with `i` replaced by `left` and `j` replaced by `right`:
+
 # Sliding Window 
 
 --- 
@@ -5,13 +7,13 @@
 ## Template 1: Sliding Window (Shrinkable)
 
 ```java
-int i = 0, j = 0, ans = 0;
-for (; j < N; ++j) {
-    // CODE: use A[j] to update state which might make the window invalid
-    for (; invalid(); ++i) { // when invalid, keep shrinking the left edge until it's valid again
-        // CODE: update state using A[i]
+int left = 0, right = 0, ans = 0;
+for (right = 0; right < N; ++right) {
+    // CODE: use A[right] to update state which might make the window invalid
+    for (; invalid(); ++left) { // when invalid, keep shrinking the left edge until it's valid again
+        // CODE: update state using A[left]
     }
-    ans = max(ans, j - i + 1); // the window [i, j] is the maximum window we've found thus far
+    ans = max(ans, right - left + 1); // the window [left, right] is the maximum window we've found thus far
 }
 return ans;
 ```
@@ -22,7 +24,7 @@ Essentially, we want to keep the window valid at the end of each outer for loop.
 
 #### Problem:
 What should we use as the state? It should be the sum of numbers in the window.
-How to determine invalid? The window is invalid if `(j - i + 1) * A[j] - sum > k`.
+How to determine invalid? The window is invalid if `(right - left + 1) * A[right] - sum > k`.
 
 ```java
 // OJ: https://leetcode.com/problems/frequency-of-the-most-frequent-element/
@@ -31,11 +33,11 @@ How to determine invalid? The window is invalid if `(j - i + 1) * A[j] - sum > k
 class Solution {
     public int maxFrequency(int[] A, int k) {
         Arrays.sort(A);
-        long i = 0, N = A.length, ans = 1, sum = 0;
-        for (int j = 0; j < N; ++j) {
-            sum += A[j];
-            while ((j - i + 1) * A[j] - sum > k) sum -= A[i++];
-            ans = Math.max(ans, j - i + 1);
+        long left = 0, N = A.length, ans = 1, sum = 0;
+        for (int right = 0; right < N; ++right) {
+            sum += A[right];
+            while ((right - left + 1) * A[right] - sum > k) sum -= A[left++];
+            ans = Math.max(ans, right - left + 1);
         }
         return ans;
     }
@@ -45,24 +47,24 @@ class Solution {
 ### FAQ:
 
 - **Why is the time complexity O(NlogN)?**  
-  The sorting takes O(NlogN). The two-pointer part only takes O(N) because both the pointers `i` and `j` traverse the array only once.
+  The sorting takes O(NlogN). The two-pointer part only takes O(N) because both the pointers `left` and `right` traverse the array only once.
   
-- **Why is `(j - i + 1) * A[j] - sum <= k` valid?**  
-  `(j - i + 1)` is the length of the window `[i, j]`. We want to increase all the numbers in the window to equal `A[j]`. The number of operations needed is `(j - i + 1) * A[j] - sum`, which should be `<= k`.
+- **Why is `(right - left + 1) * A[right] - sum <= k` valid?**  
+  `(right - left + 1)` is the length of the window `[left, right]`. We want to increase all the numbers in the window to equal `A[right]`. The number of operations needed is `(right - left + 1) * A[right] - sum`, which should be `<= k`.
 
 ## Template 2: Sliding Window (Non-shrinkable)
 
 ```java
-int i = 0, j = 0;
-for (; j < N; ++j) {
-    // CODE: use A[j] to update state which might make the window invalid
+int left = 0, right = 0;
+for (; right < N; ++right) {
+    // CODE: use A[right] to update state which might make the window invalid
     if (invalid()) { // Increment the left edge ONLY when the window is invalid
-        // CODE: update state using A[i]
-        ++i;
+        // CODE: update state using A[left]
+        ++left;
     }
-    // after `++j` in the for loop, this window `[i, j)` of length `j - i` might be valid.
+    // after `++right` in the for loop, this window `[left, right)` of length `right - left` might be valid.
 }
-return j - i;
+return right - left;
 ```
 
 ### Example Solution:
@@ -75,12 +77,12 @@ return j - i;
 class Solution {
     public int maxFrequency(int[] A, int k) {
         Arrays.sort(A);
-        long i = 0, j = 0, N = A.length, sum = 0;
-        for (; j < N; ++j) {
-            sum += A[j];
-            if ((j - i + 1) * A[j] - sum > k) sum -= A[i++];
+        long left = 0, right = 0, N = A.length, sum = 0;
+        for (; right < N; ++right) {
+            sum += A[right];
+            if ((right - left + 1) * A[right] - sum > k) sum -= A[left++];
         }
-        return j - i;
+        return right - left;
     }
 }
 ```
@@ -100,11 +102,11 @@ class Solution {
 // Space: O(1)
 class Solution {
     public int longestSubarray(int[] A) {
-        int i = 0, j = 0, N = A.length, cnt = 0, ans = 0;
-        for (; j < N; ++j) {
-            cnt += A[j] == 0 ? 1 : 0;
-            while (cnt > 1) cnt -= A[i++] == 0 ? 1 : 0;
-            ans = Math.max(ans, j - i);
+        int left = 0, right = 0, N = A.length, cnt = 0, ans = 0;
+        for (; right < N; ++right) {
+            cnt += A[right] == 0 ? 1 : 0;
+            while (cnt > 1) cnt -= A[left++] == 0 ? 1 : 0;
+            ans = Math.max(ans, right - left);
         }
         return ans;
     }
@@ -119,12 +121,12 @@ class Solution {
 // Space: O(1)
 class Solution {
     public int longestSubarray(int[] A) {
-        int i = 0, j = 0, N = A.length, cnt = 0;
-        for (; j < N; ++j) {
-            cnt += A[j] == 0 ? 1 : 0;
-            if (cnt > 1) cnt -= A[i++] == 0 ? 1 : 0;
+        int left = 0, right = 0, N = A.length, cnt = 0;
+        for (; right < N; ++right) {
+            cnt += A[right] == 0 ? 1 : 0;
+            if (cnt > 1) cnt -= A[left++] == 0 ? 1 : 0;
         }
-        return j - i - 1;
+        return right - left - 1;
     }
 }
 ```
@@ -134,7 +136,7 @@ class Solution {
 #### Sliding Window (Shrinkable)
 
 - **State:** `cnt[ch]` is the number of occurrences of character `ch` in the window.
-- **Invalid:** `cnt[s[j]] > 1` is invalid.
+- **Invalid:** `cnt[s[right]] > 1` is invalid.
 
 ```java
 // OJ: https://leetcode.com/problems/longest-substring-without-repeating-characters/
@@ -142,12 +144,12 @@ class Solution {
 // Space: O(1)
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        int i = 0, j = 0, N = s.length(), ans = 0;
+        int left = 0, right = 0, N = s.length(), ans = 0;
         int[] cnt = new int[128];
-        for (; j < N; ++j) {
-            cnt[s.charAt(j)]++;
-            while (cnt[s.charAt(j)] > 1) cnt[s.charAt(i++)]--;
-            ans = Math.max(ans, j - i + 1);
+        for (; right < N; ++right) {
+            cnt[s.charAt(right)]++;
+            while (cnt[s.charAt(right)] > 1) cnt[s.charAt(left++)]--;
+            ans = Math.max(ans, right - left + 1);
         }
         return ans;
     }
@@ -162,14 +164,14 @@ class Solution {
 // Space: O(1)
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        int i = 0, j = 0, N = s.length();
+        int left = 0, right = 0, N = s.length();
         int[] cnt = new int[128];
         int dup = 0;
-        for (; j < N; ++j) {
-            dup += ++cnt[s.charAt(j)] == 2 ? 1 : 0;
-            if (dup > 0) dup -= --cnt[s.charAt(i++)] == 1 ? 1 : 0;
+        for (; right < N; ++right) {
+            dup += ++cnt[s.charAt(right)] == 2 ? 1 : 0;
+            if (dup > 0) dup -= --cnt[s.charAt(left++)] == 1 ? 1 : 0;
         }
-        return j - i;
+        return right - left;
     }
 }
 ```
@@ -188,15 +190,13 @@ class Solution {
 class Solution {
     public int numSubarrayProductLessThanK(int[] A, int k) {
         if (k == 0) return 0;
-        long i = 0, j = 0, prod = 1, ans = 0;
-        for (; j < A.length; ++j) {
-            prod *= A[j];
-            while (i <= j && prod >= k) prod /= A[(int) i++];
-            ans += j - i + 1;
+        long left = 0, right = 0, prod = 1, ans = 0;
+        for (; right < A.length; ++right) {
+            prod *= A[right];
+            while (left <= right && prod >= k) prod /= A[(int) left++];
+            ans += right - left + 1;
         }
-        return (int) ans
-
-;
+        return (int) ans;
     }
 }
 ```
