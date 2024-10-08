@@ -1,4 +1,3 @@
-Here’s the modified code and explanation with `i` replaced by `left` and `j` replaced by `right`:
 
 # Sliding Window 
 
