@@ -95,15 +95,14 @@ class Solution {
 
 ## Apply these Templates to Other Problems
 
-### 1493. Longest Subarray of 1's After Deleting One Element (Medium)
-
+### 
+[1493. Longest Subarray of 1's After Deleting One Element (Medium)](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)
 #### Sliding Window (Shrinkable)
 
 - **What's the state?** `cnt` as the number of `0`s in the window.
 - **What's invalid?** `cnt > 1` is invalid.
 
 ```java
-// OJ: https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/
 // Time: O(N)
 // Space: O(1)
 class Solution {
@@ -122,7 +121,6 @@ class Solution {
 #### Sliding Window (Non-shrinkable)
 
 ```java
-// OJ: https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/
 // Time: O(N)
 // Space: O(1)
 class Solution {
@@ -137,7 +135,7 @@ class Solution {
 }
 ```
 
-### 3. Longest Substring Without Repeating Characters (Medium)
+### 3. [Longest Substring Without Repeating Characters (Medium)](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 #### Sliding Window (Shrinkable)
 
@@ -145,7 +143,6 @@ class Solution {
 - **Invalid:** `cnt[s[right]] > 1` is invalid.
 
 ```java
-// OJ: https://leetcode.com/problems/longest-substring-without-repeating-characters/
 // Time: O(N)
 // Space: O(1)
 class Solution {
