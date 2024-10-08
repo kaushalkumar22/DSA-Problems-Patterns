@@ -1,5 +1,107 @@
 # DSA-Problems-Patterns
 
+| **Category**       | **Problem**                            | **Solution** | **Difficulty** | **Frequency** |
+|--------------------|----------------------------------------|--------------|----------------|---------------|
+| Two Pointers       |                                        |              |                |               |
+|                    | Valid Palindrome                       | Solution     | Easy           | String        |
+|                    | Is Subsequence                         | Solution     | Easy           | String        |
+|                    | Two Sum II - Input Array Is Sorted     | Solution     | Medium         | Array         |
+|                    | Container With Most Water              | Solution     | Medium         | Array         |
+|                    | 3Sum                                   | Solution     | Medium         | Array         |
+| Sliding Window     |                                        |              |                |               |
+|                    | Minimum Size Subarray Sum              | Solution     | Medium         | Array         |  
+|                    | Longest Substring Without Repeating Characters | Solution     | Medium         | String        |
+|                    | Substring with Concatenation of All Words | Solution     | Hard           | String        |
+|                    | Minimum Window Substring               | Solution     | Hard           | String        |
+| Arrays             |                                        |              |                |               |
+|                    | Merge Sorted Array                     | Solution     | Easy           | Array         |
+|                    | Remove Element                         | Solution     | Easy           | Array         |
+|                    | Remove Duplicates from Sorted Array    | Solution     | Easy           | Array         |
+|                    | Remove Duplicates from Sorted Array II | Solution     | Medium         | Array         |
+|                    | Majority Element                       | Solution     | Easy           | Array         |
+|                    | Rotate Array                           | Solution     | Medium         | Array         |
+|                    | Best Time to Buy and Sell Stock        | Solution     | Easy           | Array         |
+|                    | Best Time to Buy and Sell Stock II     | Solution     | Medium         | Array         |
+|                    | Jump Game                              | Solution     | Medium         | Array         |
+|                    | Jump Game II                           | Solution     | Medium         | Array         |
+|                    | Product of Array Except Self           | Solution     | Medium         | Array         |
+|                    | Trapping Rain Water                    | Solution     | Hard           | Array         |
+| Strings            |                                        |              |                |               |
+|                    | Roman to Integer                       | Solution     | Easy           | String        |
+|                    | Integer to Roman                       | Solution     | Medium         | String        |
+|                    | Length of Last Word                    | Solution     | Easy           | String        |
+|                    | Longest Common Prefix                  | Solution     | Easy           | String        |
+|                    | Reverse Words in a String              | Solution     | Medium         | String        |
+|                    | Zigzag Conversion                      | Solution     | Medium         | String        |
+|                    | Find the Index of the First Occurrence in a String | Solution     | Easy     | String        |
+|                    | Text Justification                     | Solution     | Hard           | String        |
+| Hashmap            |                                        |              |                |               |
+|                    | Ransom Note                            | Solution     | Easy           | String        |
+|                    | Isomorphic Strings                     | Solution     | Easy           | String        |
+|                    | Word Pattern                           | Solution     | Easy           | String        |
+|                    | Valid Anagram                          | Solution     | Easy           | String        |
+|                    | Group Anagrams                         | Solution     | Medium         | String        |
+|                    | Two Sum                                | Solution     | Easy           | Array         |
+|                    | Contains Duplicate II                  | Solution     | Easy           | Array         |
+|                    | Longest Consecutive Sequence           | Solution     | Medium         | Array         |
+| Matrix             |                                        |              |                |               |
+|                    | Valid Sudoku                           | Solution     | Medium         | Array         |
+|                    | Spiral Matrix                          | Solution     | Medium         | Array         |
+|                    | Rotate Image                           | Solution     | Medium         | Array         |
+|                    | Set Matrix Zeroes                      | Solution     | Medium         | Array         |
+|                    | Game of Life                           | Solution     | Medium         | Array         |
+| Stack              |                                        |              |                |               |
+|                    | Valid Parentheses                      | Solution     | Easy           | String        |
+|                    | Simplify Path                          | Solution     | Medium         | String        |
+|                    | Min Stack                              | Solution     | Medium         | Array         |
+|                    | Evaluate Reverse Polish Notation       | Solution     | Medium         | Array         |
+|                    | Basic Calculator                       | Solution     | Hard           | Array         |
+| Linked List        |                                        |              |                |               |
+|                    | Linked List Cycle                      | Solution     | Easy           | Array         |
+|                    | Add Two Numbers                        | Solution     | Medium         | Array         |
+|                    | Merge Two Sorted Lists                 | Solution     | Easy           | Array         |
+|                    | Reverse Linked List II                 | Solution     | Medium         | Array         |
+|                    | Rotate List                            | Solution     | Medium         | Array         |
+| Binary Tree        |                                        |              |                |               |
+|                    | Maximum Depth of Binary Tree           | Solution     | Easy           | Tree          |
+|                    | Same Tree                              | Solution     | Easy           | Tree          |
+|                    | Invert Binary Tree                     | Solution     | Easy           | Tree          |
+|                    | Symmetric Tree                         | Solution     | Easy           | Tree          |
+|                    | Construct Binary Tree from Preorder and Inorder Traversal | Solution | Medium     | Tree          |
+|                    | Path Sum                               | Solution     | Easy           | Tree          |
+| Binary Search      |                                        |              |                |               |
+|                    | Search Insert Position                 | Solution     | Easy           | Array         |
+|                    | Search a 2D Matrix                     | Solution     | Medium         | Matrix        |
+|                    | Find Peak Element                      | Solution     | Medium         | Array         |
+|                    | Search in Rotated Sorted Array         | Solution     | Medium         | Array         |
+|                    | Find First and Last Position of Element in Sorted Array | Solution | Medium | Array         |
+|                    | Median of Two Sorted Arrays            | Solution     | Hard           | Array         |
+| Heap               |                                        |              |                |               |
+|                    | Kth Largest Element in an Array        | Solution     | Medium         | Array         |
+|                    | Find Median from Data Stream           | Solution     | Hard           | Array         |
+| Bit Manipulation   |                                        |              |                |               |
+|                    | Add Binary                             | Solution     | Easy           | String        |
+|                    | Reverse Bits                           | Solution     | Easy           | String        |
+|                    | Single Number                          | Solution     | Easy           | Array         |
+| Dynamic Programming|                                        |              |                |               |
+|                    | Climbing Stairs                        | Solution     | Easy           | Array         |
+|                    | Coin Change                            | Solution     | Medium         | Array         |
+|                    | Longest Increasing Subsequence         | Solution     | Medium         | Array         |
+|                    | House Robber                           | Solution     | Medium         | Array         |
+|                    | Word Break                             | Solution     | Medium         | String        |
+| Divide & Conquer   |                                        |              |                |               |
+|                    | Merge k Sorted Lists                   | Solution     | Hard           | Array         |
+|                    | Sort List                              | Solution     | Medium         | Array         |
+|                    | Convert Sorted Array to Binary Search Tree | Solution | Easy         | Tree          |
+| Math               |                                        |              |                |               |
+|                    | Palindrome Number                      | Solution     | Easy           | String        |
+|                    | Plus One                               | Solution     | Easy           | Array         |
+|                    | Factorial Trailing Zeroes              | Solution     | Medium         | Array         |
+|                    | Sqrt(x)                                | Solution     | Easy           | Array         |
+|                    | Pow(x, n)                              | Solution     | Medium         | Array         |
+|                    | Max Points on a Line                   | Solution     | Hard           | Array         |
+
+
 ## 📌 Fundamental Concepts
 - [Algorithmic Complexity](https://blog.algomaster.io/p/57bd4963-462f-4294-a972-4012691fc729)
 - [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
@@ -34,6 +136,8 @@
 - [Fast and Slow Pointers Pattern](https://blog.algomaster.io/p/7dcce8e9-beee-4fef-8874-7aae025031b1)
 - [Sliding Window Pattern](https://blog.algomaster.io/p/f4412a17-7a3a-4d0b-8e39-9ea8f429bf7c)
 - [Top 'K' Elements Pattern](https://blog.algomaster.io/p/322aac40-c4d0-4e54-980d-b22d9eeebca6)
+
+
 - [Monotonic Stack Pattern](https://blog.algomaster.io/p/5dabff21-11f4-470d-8e38-76ff07c63fdf)
 - [Overlapping Intervals Pattern](https://blog.algomaster.io/p/812e72f7-eced-4256-a4c1-00606ae50679)
 - [Backtracking Pattern](https://blog.algomaster.io/p/81d42ca2-600c-4252-aa33-a56462090048)
