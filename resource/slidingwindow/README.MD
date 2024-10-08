@@ -23,8 +23,10 @@ Essentially, we want to keep the window valid at the end of each outer for loop.
 ### Example Solution:
 
 #### Problem:
-What should we use as the state? It should be the sum of numbers in the window.
-How to determine invalid? The window is invalid if `(right - left + 1) * A[right] - sum > k`.
+- ** What should we use as the state?**  
+It should be the sum of numbers in the window.
+- **How to determine invalid?**  
+The window is invalid if `(right - left + 1) * A[right] - sum > k`.
 
 ```java
 // OJ: https://leetcode.com/problems/frequency-of-the-most-frequent-element/
