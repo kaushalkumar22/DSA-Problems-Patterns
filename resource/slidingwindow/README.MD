@@ -26,13 +26,13 @@ Essentially, we want to keep the window valid at the end of each outer for loop.
 - **What should we use as the state?**  
 It should be the sum of numbers in the window.
 - **How to determine invalid?**  
-The window is invalid if `(right - left + 1) * A[right] - sum > k`.
-
-For every new element A[right] to the sliding window,Add it to the sum by sum += A[right].
-Check if it'a valid window  `(right - left + 1) * A[right] - sum > k`
-
-If not, removing A[left] from the window by sum -= A[left] and left += 1.
-Then update the res by res = max(res, right - left + 1).
+The window is invalid if `(right - left + 1) * A[right] - sum > k`.  
+  
+For every new element A[right] to the sliding window,Add it to the sum by sum += A[right].  
+Check if it'a valid window  `(right - left + 1) * A[right] - sum > k`  
+  
+If not, removing A[left] from the window by sum -= A[left] and left += 1.  
+Then update the res by res = max(res, right - left + 1).  
 
 ```java
 // Time: O(NlogN)
