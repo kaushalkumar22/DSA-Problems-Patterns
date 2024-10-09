@@ -4,7 +4,9 @@ Here is the updated tabular format with the added "Solution" and "Frequency" col
 
 | **Category**       | **Problem**                                          | **Solution** | **Difficulty** | **Frequency** |
 |--------------------|------------------------------------------------------|--------------|----------------|---------------|
-| **Array / String**  | Merge Sorted Array                                   | Solution     | Easy           | High          |
+|                    |                                        |              |                |               |
+| **Array / String** |                                                      |              |                |               |
+|                    | Merge Sorted Array                                   | Solution     | Easy           | High          |
 |                    | Remove Element                                       | Solution     | Easy           | High          |
 |                    | Remove Duplicates from Sorted Array                  | Solution     | Easy           | Medium        |
 |                    | Remove Duplicates from Sorted Array II               | Solution     | Medium         | Medium        |
@@ -28,21 +30,29 @@ Here is the updated tabular format with the added "Solution" and "Frequency" col
 |                    | Zigzag Conversion                                    | Solution     | Medium         | Medium        |
 |                    | Find the Index of the First Occurrence in a String   | Solution     | Easy           | Medium        |
 |                    | Text Justification                                   | Solution     | Hard           | Low           |
-| **Two Pointers**    | Valid Palindrome                                     | Solution     | Easy           | Medium        |
+| |                                        |              |                |               |
+|**Two Pointers**    |                                        |              |                |               |
+|                    | Valid Palindrome                                     | Solution     | Easy           | Medium        |
 |                    | Is Subsequence                                       | Solution     | Easy           | Medium        |
 |                    | Two Sum II - Input Array Is Sorted                   | Solution     | Medium         | High          |
 |                    | Container With Most Water                            | Solution     | Medium         | High          |
 |                    | 3Sum                                                 | Solution     | Medium         | High          |
-| **Sliding Window**  | Minimum Size Subarray Sum                            | Solution     | Medium         | Medium        |
+| |                                        |              |                |               |
+|**Sliding Window**  |                                        |              |                |               |
+|                    | Minimum Size Subarray Sum                            | Solution     | Medium         | Medium        |
 |                    | Longest Substring Without Repeating Characters       | Solution     | Medium         | High          |
 |                    | Substring with Concatenation of All Words            | Solution     | Hard           | Low           |
 |                    | Minimum Window Substring                             | Solution     | Hard           | High          |
-| **Matrix**          | Valid Sudoku                                         | Solution     | Medium         | High          |
+| |                  |              |                |               |
+| **Matrix**         |                                                      |              |                |               |
+|                    | Valid Sudoku                                         | Solution     | Medium         | High          |
 |                    | Spiral Matrix                                        | Solution     | Medium         | Medium        |
 |                    | Rotate Image                                         | Solution     | Medium         | Medium        |
 |                    | Set Matrix Zeroes                                    | Solution     | Medium         | Medium        |
 |                    | Game of Life                                         | Solution     | Medium         | Low           |
-| **Hash Map / Set** | Ransom Note                                          | Solution     | Easy           | High          |
+| |                                        |              |                |               |
+|**Hash Map / Set** |                                        |              |                |               |
+|                    | Ransom Note                                          | Solution     | Easy           | High          |
 |                    | Isomorphic Strings                                   | Solution     | Easy           | Medium        |
 |                    | Word Pattern                                         | Solution     | Easy           | Medium        |
 |                    | Valid Anagram                                        | Solution     | Easy           | High          |
@@ -55,19 +65,29 @@ Here is the updated tabular format with the added "Solution" and "Frequency" col
 |                    | Unique Number of Occurrences                         | Solution     | Easy           | Array         |
 |                    | Determine if Two Strings Are Close                   | Solution     | Medium         | String        |
 |                    | Equal Row and Column Pairs                           | Solution     | Medium         | Array         |
+| |                                        |              |                |               |
+| |                                        |              |                |               |
 | **Intervals**       | Summary Ranges                                       | Solution     | Easy           | Low           |
 |                    | Merge Intervals                                      | Solution     | Medium         | High          |
 |                    | Insert Interval                                      | Solution     | Medium         | Medium        |
 |                    | Minimum Number of Arrows to Burst Balloons           | Solution     | Medium         | Medium        |
+| |                                        |              |                |               |
+| |                                        |              |                |               |
 | **Stack**           | Valid Parentheses                                    | Solution     | Easy           | High          |
 |                    | Simplify Path                                        | Solution     | Medium         | Medium        |
 |                    | Min Stack                                            | Solution     | Medium         | High          |
 |                    | Evaluate Reverse Polish Notation                     | Solution     | Medium         | Medium        |
 |                    | Basic Calculator                                     | Solution     | Hard           | Low           |
+| |                                        |              |                |               |
+| |                                        |              |                |               |
 | Monotonic Stack    | Daily Temperatures                                   | Solution     | Medium         | Array         |
 |                    | Online Stock Span                                    | Solution     | Medium         | Array         |
+| |                                        |              |                |               |
+| |                                        |              |                |               |
 | Queue              | Number of Recent Calls                               | Solution     | Easy           | Array         |
 |                    | Dota2 Senate                                         | Solution     | Medium         | String        |
+| |                                        |              |                |               |
+| |                                        |              |                |               |
 | **Linked List**    |        |
 ||[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)||
 ||[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)||
@@ -84,6 +104,8 @@ Here is the updated tabular format with the added "Solution" and "Frequency" col
 ||[Design Browser History](https://leetcode.com/problems/design-browser-history/description/)||
 ||[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)||
 ||[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)||
+| |                                        |              |                |               |
+| |                                        |              |                |               |
 | **Binary Tree** |||
 |    | Maximum Depth of Binary Tree                         | Solution     | Easy           | High          |
 |                    | Same Tree                                            | Solution     | Easy           | High          |
@@ -124,36 +146,50 @@ Here is the updated tabular format with the added "Solution" and "Frequency" col
 ||[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/description/)
 ||[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)
 ||[Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/description/)
+| |                                        |              |                |               |
+| |                                        |              |                |               |
 | **Binary Tree BFS** | Binary Tree Right Side View                          | Solution     | Medium         | Medium        |
 |                    | Average of Levels in Binary Tree                     | Solution     | Easy           | Medium        |
 |                    | Binary Tree Level Order Traversal                    | Solution     | Medium         | High          |
 |                    | Binary Tree Zigzag Level Order Traversal             | Solution     | Medium         | Medium        |
 |                    | Maximum Level Sum of a Binary Tree                   | Solution     | Medium         | Tree          |
+| |                                        |              |                |               |
+| |                                        |              |                |               |
 | Binary Tree - DFS  | Maximum Depth of Binary Tree                         | Solution     | Easy           | Tree          |
 |                    | Leaf-Similar Trees                                   | Solution     | Easy           | Tree          |
 |                    | Count Good Nodes in Binary Tree                      | Solution     | Medium         | Tree          |
 |                    | Path Sum III                                         | Solution     | Medium         | Tree          |
 |                    | Longest ZigZag Path in a Binary Tree                 | Solution     | Medium         | Tree          |
 |                    | Lowest Common Ancestor of a Binary Tree              | Solution     | Medium         | Tree          |
+| |                                        |              |                |               |
+| |                                        |              |                |               |
 | **Binary Search Tree**| Minimum Absolute Difference in BST                | Solution     | Easy           | Medium        |
 |                    | Kth Smallest Element in a BST                        | Solution     | Medium         | Medium        |
 |                    | Validate Binary Search Tree                          | Solution     | Medium         | High          |
 |                    | Search in a Binary Search Tree                       | Solution     | Easy           | Tree          |
 |                    | Delete Node in a BST                                 | Solution     | Medium         | Tree          |
+| |                                        |              |                |               |
+| |                                        |              |                |               |
 | **Graph General**   | Number of Islands                                    | Solution     | Medium         | High          |
 |                    | Surrounded Regions                                   | Solution     | Medium         | Medium        |
 |                    | Clone Graph                                          | Solution     | Medium         | Medium        |
 |                    | Evaluate Division                                    | Solution     | Medium         | Medium        |
 |                    | Course Schedule                                      | Solution     | Medium         | High          |
 |                    | Course Schedule II                                   | Solution     | Medium         | High          |
+| |                                        |              |                |               |
+| |                                        |              |                |               |
 | **Graph BFS**       | Snakes and Ladders                                   | Solution     | Medium         | Medium        |
 |                    | Minimum Genetic Mutation                             | Solution     | Medium         | Low           |
 |                    | Rotting Oranges                                      | Solution     | Medium         | Graphs        |
 |                    | Word Ladder                                          | Solution     | Hard           | Medium        |
+| |                                        |              |                |               |
+| |                                        |              |                |               |
 | Graphs - DFS       | Keys and Rooms                                       | Solution     | Medium         | Graphs        |
 |                    | Number of Provinces                                  | Solution     | Medium         | Graphs        |
 |                    | Reorder Routes to Make All Paths Lead to the City Zero | Solution  | Medium         | Graphs        |
 |                    | Evaluate Division                                    | Solution     | Medium         | Graphs        |
+| |                                        |              |                |               |
+| |                                        |              |                |               |
 | **Backtracking**    |    |
 ||[Permutations](https://leetcode.com/problems/permutations/description/)
 ||[Subsets](https://leetcode.com/problems/subsets/description/)
@@ -165,20 +201,45 @@ Here is the updated tabular format with the added "Solution" and "Frequency" col
 ||[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/description/)
 ||[N-Queens II](https://leetcode.com/problems/n-queens-ii/description/)
 ||[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/)
-| Math               |                                        |              |                |               |
+|                          |                                        |              |                |               |
+| Graphs Min Spanning Tree |                                        |              |                |               |
+|                          |                                        |              |                |               |
+| Graphs Shortest Path     |                                        |              |                |               |
+|                          |                                        |              |                |               |
+| Graphs Topological Sort  |                                        |              |                |               |
+|                          |                                        |              |                |               |
+| Graphs Unionfind         |                                        |              |                |               |
+|                          |                                        |              |                |               |
+| Greedy                   |                                        |              |                |               |
+|                          |                                        |              |                |               |
+| Fast & Slow Pointers     |                                        |              |                |               |
+|                          |                                        |              |                |               |
+| Recursion                |                                        |              |                |               |
+|                          |                                        |              |                |               |
+| sorting                  |                                        |              |                |               |
+|                          |                                        |              |                |               |
+| QuickSelect              |                                        |              |                |               |
+|                          |                                        |              |                |               |
+| Math & Geometry          |                                        |              |                |               |
 |                    | Palindrome Number                      | Solution     | Easy           | String        |
 |                    | Plus One                               | Solution     | Easy           | Array         |
 |                    | Factorial Trailing Zeroes              | Solution     | Medium         | Array         |
 |                    | Sqrt(x)                                | Solution     | Easy           | Array         |
 |                    | Pow(x, n)                              | Solution     | Medium         | Array         |
 |                    | Max Points on a Line                   | Solution     | Hard           | Array         |
+| |                                        |              |                |               |
+| |                                        |              |                |               |
 | **Divide & Conquer**| Convert Sorted Array to Binary Search Tree           | Solution     | Easy           | Medium        |
 |                    | Sort List                                            | Solution     | Medium         | Medium        |
 |                    | Construct Quad Tree                                  | Solution     | Medium         | Low           |
 |                    | Merge k Sorted Lists                                 | Solution     | Hard           | High          |
+| |                                        |              |                |               |
+| |                                        |              |                |               |
 | **Kadane's Algorithm** | Maximum Subarray                                  | Solution     | Medium         | High          |
 |                    | Maximum Sum Circular Subarray                        | Solution     | Medium         | Medium        |
 | **Binary Search**  | Search Insert Position                               | Solution     | Easy           | High          |
+| |                                        |              |                |               |
+| |                                        |              |                |               |
 |                    | Search a 2D Matrix                                   | Solution     | Medium         | High          |
 |                    | Find Peak Element                                    | Solution     | Medium         | Medium        |
 |                    | Search in Rotated Sorted Array                       | Solution     | Medium         | High          |
@@ -188,6 +249,8 @@ Here is the updated tabular format with the added "Solution" and "Frequency" col
 |                    | Guess Number Higher or Lower                         | Solution     | Easy           | Array         |
 |                    | Successful Pairs of Spells and Potions               | Solution     | Medium         | Array         |
 |                    | Koko Eating Bananas                                  | Solution     | Medium         | Array         |
+| |                                        |              |                |               |
+| |                                        |              |                |               |
 | **Heap / Priority Queue** | Kth Largest Element in an Array                | Solution     | Medium         | High          |
 |                    | IPO                                                  | Solution     | Hard           | Low           |
 |                    | Find K Pairs with Smallest Sums                      | Solution     | Medium         | Medium        |
@@ -196,27 +259,39 @@ Here is the updated tabular format with the added "Solution" and "Frequency" col
 |                    | Smallest Number in Infinite Set                      | Solution     | Medium         | Array         |
 |                    | Maximum Subsequence Score                            | Solution     | Medium         | Array         |
 |                    | Total Cost to Hire K Workers                         | Solution     | Medium         | Array         |
+| |                                        |              |                |               |
+| |                                        |              |                |               |
 | **Bit Manipulation**| Add Binary                                           | Solution     | Easy           | Medium        |
 |                    | Reverse Bits                                         | Solution     | Easy           | Medium        |
 |                    | Number of 1 Bits                                     | Solution     | Easy           | Medium        |
 |                    | Single Number                                        | Solution     | Easy           | High          |
 |                    | Single Number II                                     | Solution     | Medium         | Medium        |
 |                    | Bitwise AND of Numbers Range                         | Solution     | Medium         | Low           |
+| |                                        |              |                |               |
+| |                                        |              |                |               |
 | **1D DP**           | Climbing Stairs                                      | Solution     | Easy           | High          |
 |                    | House Robber                                         | Solution     | Medium         | High          |
 |                    | Word Break                                           | Solution     | Medium         | High          |
 |                    | Coin Change                                          | Solution     | Medium         | Medium        |
 |                    | Longest Increasing Subsequence                       | Solution     | Medium         | Medium        |
+| |                                        |              |                |               |
+| |                                        |              |                |               |
+
 | **Multidimensional DP** | Triangle                                         | Solution     | Medium         | Medium        |
 |                    | Minimum Path Sum                                     | Solution     | Medium         | Medium        |
 |                    | Unique Paths II                                      | Solution     | Medium         | Medium        |
 |                    | Longest Palindromic Substring                        | Solution     | Medium         | Medium        |
 |                    | Interleaving String                                  | Solution     | Medium         | Low           |
 |                    | Edit Distance                                        | Solution     | Medium         | Low           |
-| **Matrix DP**       | Maximal Square                                       | Solution     | Medium         | Medium        |
-| Prefix Sum         | Find the Highest Altitude                            | Solution     | Easy           | Array         |
+| |                                        |              |                |               |
+|  **Matrix DP**     |                                        |              |                |               |
+|                    | Maximal Square                                       | Solution     | Medium         | Medium        |
+| |                                        |              |                |               |
+| Prefix Sum         |                                        |              |                |               |
+|                    | Find the Highest Altitude                            | Solution     | Easy           | Array         |
 |                    | Find Pivot Index                                     | Solution     | Easy           | Array         |
-|**Trie** |
+|                    |                                        |              |                |               |
+|  **Trie** |                                        |              |                |               |
 |  |[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)|
 ||[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)|
 ||[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)|
