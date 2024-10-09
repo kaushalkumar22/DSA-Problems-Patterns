@@ -288,35 +288,7 @@ Here is the updated tabular format with the added "Solution" and "Frequency" col
 - [Dynamic Programming Patterns](https://leetcode.com/discuss/study-guide/458695/Dynamic-Programming-Patterns)
 - [Stock Series Patterns](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/solutions/108870/most-consistent-ways-of-dealing-with-the-series-of-stock-problems/)
 
-## 📺 YouTube Playlist
-- [Abdul Bari's Algorithms Playlist](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
-- [William Fiset's Data Structure Playlist](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsB6SWUrDFW2RmDotAfPbeHu)
-- [William Fiset's Graphs Playlist](https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P)
-- [Tushar Roy's Dynamic Programming Playlist](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
 
-## 📇 Courses
-- [Coursera - Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1)
-- [Coursera - Algorithms, Part 2](https://www.coursera.org/learn/algorithms-part2)
-
-## 📚 Books
-- [Data Structures And Algorithms Made Easy](https://www.amazon.com/Data-Structures-Algorithms-Made-Easy-ebook/dp/B0CBW278NC/)
-- [Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/)
-
-## 🔎 Visualization
-- [VisuAlgo](https://visualgo.net/en)
-- [Algo-lens: Visualize leetcode problems](https://github.com/jaroslaw-weber/algo-lens)
-
-## 📎 LeetCode Extensions
-- [LeetCode Timer](https://chromewebstore.google.com/detail/leetcode-timer/gfkgelnlcnomnahkfmhemgpahgmibofd): Easily time your leetcode practise sessions with automatic time setting based on difficulty.
-- [LeetCode Video Solutions](https://chromewebstore.google.com/detail/leetcode-video-solutions/ilnmgkahgjdpkoliooildngldmilhelm): Watch free LeetCode video ▶ solutions on the problem page itself.
-- [LeetCode Format](https://chromewebstore.google.com/detail/leetcode-format/imogghebhifnnlgogigikjecilkicfpp): Adds Format code button on leetcode to format the code using Prettier code formatter.
-- [LeetHub v2](https://chromewebstore.google.com/detail/leethub-v2/mhanfgfagplhgemhjfeolkkdidbakocm?hl=en): Automatically integrate your Leetcode & GeeksforGeeks submissions to GitHub.
-- [LeetCode VS Code Extension](https://marketplace.visualstudio.com/items?itemName=LeetCode.vscode-leetcode): Solve LeetCode problems in VS Code.
-
-## ✅ Curated Problems
-- [Blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions)
-- [Leetcode Top 100 Liked](https://leetcode.com/studyplan/top-100-liked/)
-- [Leetcode Top Interview 150](https://leetcode.com/studyplan/top-interview-150/)
 
 
 \# | Title | Difficulty | Solution
