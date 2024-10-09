@@ -61,10 +61,16 @@ Here is the updated tabular format with the added "Solution" and "Frequency" col
 |                    | Determine if Two Strings Are Close                   | Solution     | Medium         | String        |
 |                    | Equal Row and Column Pairs                           | Solution     | Medium         | Array         |
 | **Intervals**      |                                        |              |                |               |
+|                    |56  Merge Intervals                                      | Solution     | Medium         | High        |
+|                    |57 Insert Interval                                      | Solution     | Medium         | Medium        |
 |                    | Summary Ranges                                       | Solution     | Easy           | Low           |
-|                    | Merge Intervals                                      | Solution     | Medium         | High          |
-|                    | Insert Interval                                      | Solution     | Medium         | Medium        |
 |                    | Minimum Number of Arrows to Burst Balloons           | Solution     | Medium         | Medium        |
+|                    |252	Meeting Rooms|Solution| 	Easy||
+|                    |253	Meeting Rooms II   |Solution| 	Medium||
+|                    |435	Non-overlapping Intervals	|Solution|Medium||
+|                    |986	Interval List Intersections	|Solution| Medium||
+|                    |2276 Count Integers in Intervals  	|Solution|Hard ||
+|                    |2345 Finding the Number of Visible Mountains	|Solution|Medium||
 | **Stack**          |                                        |              |                |               |
 |                    | Valid Parentheses                                    | Solution     | Easy           | High          |
 |                    | Simplify Path                                        | Solution     | Medium         | Medium        |
@@ -235,12 +241,16 @@ Here is the updated tabular format with the added "Solution" and "Frequency" col
 |                    | Maximum Subsequence Score                            | Solution     | Medium         | Array         |
 |                    | Total Cost to Hire K Workers                         | Solution     | Medium         | Array         |
 |  **Bit Manipulation**|                                        |              |                |               |
-|| Add Binary                                           | Solution     | Easy           | Medium        |
+|                    | Add Binary                                           | Solution     | Easy           | Medium        |
 |                    | Reverse Bits                                         | Solution     | Easy           | Medium        |
 |                    | Number of 1 Bits                                     | Solution     | Easy           | Medium        |
 |                    | Single Number                                        | Solution     | Easy           | High          |
 |                    | Single Number II                                     | Solution     | Medium         | Medium        |
-|                    | Bitwise AND of Numbers Range                         | Solution     | Medium         | Low           |
+|                    | Bitwise AND of Numbers Range                         | Solution     | Medium         | Low           |	
+|                    | Counting Bits  
+|                    | Missing Number  
+|                    | Sum of Two Integers  
+|                    | Reverse Integer   
 | **1D DP** |                                        |              |                |               |
 |           | Climbing Stairs                                      | Solution     | Easy           | High          |
 |                    | House Robber                                         | Solution     | Medium         | High          |
