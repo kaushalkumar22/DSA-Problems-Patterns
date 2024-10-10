@@ -10,6 +10,9 @@ I would recommend you to start solving these example problems, and apply the kno
 1. Running from both ends of an array
 
 The first type of problems are, having two pointers at left and right end of array, then moving them to the center while processing something with them.
+
+<img alt="" src="https://assets.leetcode.com/uploads/2021/02/19/symtree1.jpg" style="width: 354px; height: 291px;">
+
 https://assets.leetcode.com/users/images/83674944-3be0-4974-b7a8-e59319b896c7_1642138224.1528904.jpeg
 
 https://assets.leetcode.com/users/images/f6ecb6b1-679e-48f9-91b5-de4602436865_1642138215.8872066.jpeg
