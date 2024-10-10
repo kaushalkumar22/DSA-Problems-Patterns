@@ -11,7 +11,7 @@ I would recommend you to start solving these example problems, and apply the kno
 
 The first type of problems are, having two pointers at left and right end of array, then moving them to the center while processing something with them.
 
-<img alt="" src="https://assets.leetcode.com/users/images/83674944-3be0-4974-b7a8-e59319b896c7_1642138224.1528904.jpeg" style="width: 500px; height: 291px;">
+<img alt="" src="https://assets.leetcode.com/users/images/83674944-3be0-4974-b7a8-e59319b896c7_1642138224.1528904.jpeg" style="width: 700px; height: 291px;">
 
     2 Sum problem
     (*) https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
@@ -64,7 +64,7 @@ The first type of problems are, having two pointers at left and right end of arr
 
 Next type is using two pointers with different speed of movement. Typically they starts from the left end, then the first pointer advances fast and give some feedback to the slow pointer and do some calculation.
 
-<img alt="" src="https://assets.leetcode.com/users/images/f6ecb6b1-679e-48f9-91b5-de4602436865_1642138215.8872066.jpeg" style="width: 354px; height: 291px;">
+<img alt="" src="https://assets.leetcode.com/users/images/f6ecb6b1-679e-48f9-91b5-de4602436865_1642138215.8872066.jpeg" style="width: 700px; height: 291px;">
 
     Linked List Operations
     (*) https://leetcode.com/problems/linked-list-cycle/
@@ -114,7 +114,7 @@ Next type is using two pointers with different speed of movement. Typically they
 
 In this category, you will be given 2 arrays or lists, then have to process them with individual pointers.
 
-<img alt="" src=https://assets.leetcode.com/users/images/2a44123b-9acb-4dbc-b230-d313a37039c9_1642138206.7972002.jpeg" style="width: 354px; height: 291px;">
+<img alt="" src=https://assets.leetcode.com/users/images/2a44123b-9acb-4dbc-b230-d313a37039c9_1642138206.7972002.jpeg" style="width: 700px; height: 291px;">
 
     Sorted arrays
     (*) https://leetcode.com/problems/merge-sorted-array/
@@ -156,7 +156,7 @@ In this category, you will be given 2 arrays or lists, then have to process them
 
 The last one is similiar to previous category but there is one thing is added. First, you need to split the given list into 2 separate lists and then do two pointers approach to merge or unify them. There aren't many tasks here.
 
-<img alt="" src="https://assets.leetcode.com/users/images/1d3c2ed7-95ca-440d-9693-f3e31360b826_1642138190.9125686.jpeg" style="width: 354px; height: 291px;">
+<img alt="" src="https://assets.leetcode.com/users/images/1d3c2ed7-95ca-440d-9693-f3e31360b826_1642138190.9125686.jpeg" style="width: 700px; height: 500px;">
 
     Partition
     (*) https://leetcode.com/problems/partition-list/
