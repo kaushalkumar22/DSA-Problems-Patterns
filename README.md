@@ -13,15 +13,9 @@ Here is the updated tabular format with the added "Solution" and "Frequency" col
 |                    | Rotate Array                                         | Solution     | Medium         | High          |
 |                    | Best Time to Buy and Sell Stock                      | Solution     | Easy           | High          |
 |                    | Best Time to Buy and Sell Stock II                   | Solution     | Medium         | High          |
-|                    | Jump Game                                            | Solution     | Medium         | Medium        |
-|                    | Jump Game II                                         | Solution     | Medium         | Medium        |
 |                    | H-Index                                              | Solution     | Medium         | Low           |
 |                    | Insert Delete GetRandom O(1)                         | Solution     | Medium         | Medium        |
 |                    | Product of Array Except Self                         | Solution     | Medium         | High          |
-|                    | Gas Station                                          | Solution     | Medium         | Medium        |
-|                    | Candy                                                | Solution     | Hard           | Low           |
-|                    | Trapping Rain Water                                  | Solution     | Hard           | High          |
-|                    | Roman to Integer                                     | Solution     | Easy           | High          |
 |                    | Integer to Roman                                     | Solution     | Medium         | Medium        |
 |                    | Length of Last Word                                  | Solution     | Easy           | High          |
 |                    | Longest Common Prefix                                | Solution     | Easy           | High          |
