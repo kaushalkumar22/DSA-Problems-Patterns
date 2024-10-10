@@ -11,7 +11,7 @@ I would recommend you to start solving these example problems, and apply the kno
 
 The first type of problems are, having two pointers at left and right end of array, then moving them to the center while processing something with them.
 
-<img alt="" src="https://assets.leetcode.com/users/images/83674944-3be0-4974-b7a8-e59319b896c7_1642138224.1528904.jpeg" style="width: 354px; height: 291px;">
+<img alt="" src="https://assets.leetcode.com/users/images/83674944-3be0-4974-b7a8-e59319b896c7_1642138224.1528904.jpeg" style="width: 500px; height: 291px;">
 
     2 Sum problem
     (*) https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
