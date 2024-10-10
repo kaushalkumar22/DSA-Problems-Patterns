@@ -114,7 +114,7 @@ Next type is using two pointers with different speed of movement. Typically they
 
 In this category, you will be given 2 arrays or lists, then have to process them with individual pointers.
 
-<img alt="src=https://assets.leetcode.com/users/images/2a44123b-9acb-4dbc-b230-d313a37039c9_1642138206.7972002.jpeg" style="width: 700px; height: 291px;">
+<img alt="" src="src=https://assets.leetcode.com/users/images/2a44123b-9acb-4dbc-b230-d313a37039c9_1642138206.7972002.jpeg" style="width: 700px; height: 400px;">
 
     Sorted arrays
     (*) https://leetcode.com/problems/merge-sorted-array/
