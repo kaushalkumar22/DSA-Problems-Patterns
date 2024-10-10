@@ -225,11 +225,42 @@ Here is the updated tabular format with the added "Solution" and "Frequency" col
 | Fast & Slow Pointers     |                                        |              |                |               |
 |                          |                                        |              |                |               |
 | Recursion                |                                        |              |                |               |
-|                          |                                        |              |                |               |
-| sorting                  |                                        |              |                |               |
-|                          |                                        |              |                |               |
-| QuickSelect              |                                        |              |                |               |
-|                          |                                        |              |                |               |
+| Data Stream              |                                        |              |                |               |
+|	|	1032. Stream of Characters	|	|	Easy	|	|
+|	|	1352. Product of the Last K Numbers	|	|	Easy	|	|
+|	|	1429. First Unique Number	|	|	Easy	|	|
+|	|	1472. Design Browser History	|	|	Easy	|	|
+|	|	1500. Design a File Sharing System	|	|	Easy	|	|
+|	|	1656. Design an Ordered Stream	|	|	Easy	|	|
+|	|	1670. Design Front Middle Back Queue	|	|	Easy	|	|
+|	|	170. Two Sum III - Data structure design	|	|	Easy	|	|
+|	|	1825. Finding MK Average	|	|	Easy	|	|
+|	|	2034. Stock Price Fluctuation	|	|	Easy	|	|
+|	|	2102. Sequentially Ordinal Rank Tracker	|	|	Easy	|	|
+|	|	2526. Find Consecutive Integers from a Data Stream	|	|	Easy	|	|
+|	|	295. Find Median from Data Stream	|	|	Easy	|	|
+|	|	346. Moving Average from Data Stream	|	|	Easy	|	|
+|	|	359. Logger Rate Limiter	|	|	Easy	|	|
+|	|	362. Design Hit Counter	|	|	Easy	|	|
+|	|	642. Design Search Autocomplete System	|	|	Easy	|	|
+|	|	703. Kth Largest Element in a Stream	|	|	Easy	|	|
+|	|	901. Online Stock Span	|	|	Easy	|	|
+|	|	933. Number of Recent Calls	|	|	Easy	|	|
+| Bucket Sort              |                                        |              |                |               |
+|	                         |	164. Maximum Gap	                    |	             |	Medium	|	|
+|	                         |	220. Contains Duplicate III	          |	|	Hard	|	|
+|	                         |	347. Top K Frequent Elements	        |	|	Medium	|	|
+|                          |	451. Sort Characters By Frequency	    |	|	Medium	|	|
+|	                         |	692. Top K Frequent Words	            |	|	Medium	|	|
+|	                         |	912. Sort an Array	                  |	|	Medium	|	|
+| QuickSelect              |                                        |              |                |               |	
+|                          |215. Kth Largest Element in an Array    |              |	Medium
+|                          |324. Wiggle Sort II	                    |              |	Medium
+|                          |347. Top K Frequent Elements	          |              |	Medium
+|                          |973. K Closest Points to Origin	        |              |	Medium
+|                          |1738. Find Kth Largest XOR Coordinate Value	|              |	Medium
+|                          |1985. Find the Kth Largest Integer in the Array	 |              |	Medium
+|                          |2343. Query Kth Smallest Trimmed Number	 |              |	Medium
 | Math & Geometry          |                                        |              |                |               |
 |                    | Palindrome Number                      | Solution     | Easy           | String        |
 |                    | Plus One                               | Solution     | Easy           | Array         |
