@@ -99,6 +99,31 @@ Here is the updated tabular format with the added "Solution" and "Frequency" col
 ||[Design Browser History](https://leetcode.com/problems/design-browser-history/description/)||
 ||[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)||
 ||[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)||
+||19	Remove Nth Node From End of List ||  Medium
+||23	Merge k Sorted Lists	 ||  Hard
+||24	Swap Nodes in Pairs	M ||  edium
+||25	Reverse Nodes in k-Group	 ||  Hard
+||61	Rotate List 	 ||  Medium
+||82	Remove Duplicates from Sorted List II	 ||  Medium
+||83	Remove Duplicates from Sorted List	 ||  Easy
+||86	Partition List	 ||  Medium
+||92	Reverse Linked List II	 ||  Medium
+||109	Convert Sorted List to Binary Search Tree	 ||  Medium
+||114	Flatten Binary Tree to Linked List	 ||  Medium
+||138	Copy List with Random Pointer	 ||  Medium
+||141	Linked List Cycle	 ||  Easy
+||142	Linked List Cycle II	 ||  Medium
+||148	Sort List	 ||  Medium
+||160	Intersection of Two Linked Lists ||  	Easy
+||203	Remove Linked List Elements ||  	Easy
+||234	Palindrome Linked List	 ||  Easy
+||328	Odd Even Linked List	 ||  Medium
+||341	Flatten Nested List Iterator ||  	Medium
+||426	Convert Binary Search Tree to Sorted Doubly Linked List ||   	Medium
+||430	Flatten a Multilevel Doubly Linked List ||  	Medium
+||876	Middle of the Linked List	 ||  Easy
+||1171	Remove Zero Sum Consecutive Nodes from Linked List ||   	Medium
+||1218	Longest Arithmetic Subsequence of Given Difference || 	Medium
 | **Binary Tree**    |                                        |              |                |               |
 |                    | Maximum Depth of Binary Tree                         | Solution     | Easy           | High          |
 |                    | Same Tree                                            | Solution     | Easy           | High          |
