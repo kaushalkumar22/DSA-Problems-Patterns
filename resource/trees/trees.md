@@ -19,26 +19,27 @@
 
 ### **Binary Search Tree (BST)**
 
-- [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) E
+- [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) DP Catalan
 - [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) E
-- [501. Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/) E
-- [653. Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) E
-- [897. Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) E
-- [538. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) E
 - [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) E D&C
 - [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
-- [426 - Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.ca/2017-01-29-426-Convert-Binary-Search-Tree-to-Sorted-Doubly-Linked-List/)
-- [285. Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) [Premium]
-- [530. Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)
-- [1305. All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) Two BSTs
 - [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
-- [669. Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) Trim
-- [1008. Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
-- [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) DP Catalan
+- [285. Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) [Premium]
+- [426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.ca/2017-01-29-426-Convert-Binary-Search-Tree-to-Sorted-Doubly-Linked-List/)
 - [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) Textbook
+- [501. Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/) E
+- [530. Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)
+- [538. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) E
+- [583. Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)
+- [653. Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) E
+- [669. Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) Trim
+- [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) E
 - [701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) Textbook
-- [998. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)
 - [783. Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)
+- [897. Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) E
+- [998. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)
+- [1008. Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
+- [1305. All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) Two BSTs
 
 ---
 
