@@ -27,7 +27,7 @@
 - [538. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) E
 - [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) E D&C
 - [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
-- [426. BST to Sorted DLL](https://leetcode.com/problems/bst-to-sorted-dll/) [Premium]
+- [426 - Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.ca/2017-01-29-426-Convert-Binary-Search-Tree-to-Sorted-Doubly-Linked-List/)
 - [285. Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) [Premium]
 - [530. Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)
 - [1305. All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) Two BSTs
