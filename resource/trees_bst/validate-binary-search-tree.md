@@ -38,53 +38,59 @@
 
 ### Pre-order Traversal
 ```java
-// Time: O(N)
-// Space: O(H)
 class Solution {
+    // Public method to check if a binary tree is a valid BST
     public boolean isValidBST(TreeNode root) {
-        return isValidBST(root, null, null);
-    }
-
-    private boolean isValidBST(TreeNode root, TreeNode left, TreeNode right) {
-        if (root == null) return true;
-        if (left != null && root.val <= left.val) return false;
-        if (right != null && root.val >= right.val) return false;
-        return isValidBST(root.left, left, root) && isValidBST(root.right, root, right);
-    }
-}
-```
-
-### Alternative Pre-order Traversal Using `long` Bounds
-```java
-// Time: O(N)
-// Space: O(H)
-class Solution {
-    public boolean isValidBST(TreeNode root) {
+        // Start the recursive check with minimum and maximum possible values for a long
         return isValidBST(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
 
+    // Helper method to validate BST with numerical boundaries
     private boolean isValidBST(TreeNode root, long left, long right) {
+        // Base case: If the current node is null, it means the subtree is valid
         if (root == null) return true;
+        
+        // If the current node's value is not within the allowable range, return false
         if (root.val <= left || root.val >= right) return false;
+        
+        // Recursively check the left subtree with the current node's value as the new right boundary
+        // Recursively check the right subtree with the current node's value as the new left boundary
         return isValidBST(root.left, left, root.val) && isValidBST(root.right, root.val, right);
     }
 }
+
+Time Complexity: O(N): Each node is visited exactly once.
+Space Complexity: O(H): The recursion stack uses memory proportional to the height of the tree, which is H
+
 ```
 
-### In-order Traversal
+### 3. In-order Traversal
+
 ```java
-// Time: O(N)
-// Space: O(H)
 class Solution {
+    // Class-level variable to track the previous node in the in-order traversal
     TreeNode prev = null;
 
+    // Public method to check if a binary tree is a valid BST
     public boolean isValidBST(TreeNode root) {
+        // Base case: If the current node is null, the subtree is valid
         if (root == null) return true;
+
+        // Recursively check the left subtree first (in-order traversal)
         if (!isValidBST(root.left)) return false;
+
+        // If the current node's value is less than or equal to the previous node's value, it's not a valid BST
         if (prev != null && root.val <= prev.val) return false;
+
+        // Update the previous node to the current node
         prev = root;
+
+        // Recursively check the right subtree
         return isValidBST(root.right);
     }
 }
-```
 
+Time Complexity: O(N): Each node is visited exactly once.
+Space Complexity: O(H): The recursion stack uses memory proportional to the height of the tree, which is H
+
+```
