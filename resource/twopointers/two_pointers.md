@@ -14,48 +14,24 @@ The first type of problems are, having two pointers at left and right end of arr
 <img alt="" src="https://assets.leetcode.com/users/images/83674944-3be0-4974-b7a8-e59319b896c7_1642138224.1528904.jpeg" style="width: 700px; height: 291px;">
 
     2 Sum problem
-    (*) https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+    https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
     https://leetcode.com/problems/3sum/
     https://leetcode.com/problems/4sum/
     https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
-    https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
-    https://leetcode.com/problems/sum-of-square-numbers/
     https://leetcode.com/problems/boats-to-save-people/
     https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/
-    https://leetcode.com/problems/3sum-with-multiplicity/
-
-    Trapping Water
-    (*) https://leetcode.com/problems/trapping-rain-water/
+    https://leetcode.com/problems/trapping-rain-water/
     https://leetcode.com/problems/container-with-most-water/
-
-    Next Permutation
-    (*) https://leetcode.com/problems/next-permutation/
-    https://leetcode.com/problems/next-greater-element-iii/
+    https://leetcode.com/problems/next-permutation/
     https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/
-
-    Reversing / Swapping
-    https://leetcode.com/problems/valid-palindrome/
-    (*) https://leetcode.com/problems/reverse-string/
     https://leetcode.com/problems/reverse-vowels-of-a-string/
     https://leetcode.com/problems/valid-palindrome-ii/
-    https://leetcode.com/problems/reverse-only-letters/
-    https://leetcode.com/problems/remove-element/
     https://leetcode.com/problems/sort-colors/
     https://leetcode.com/problems/flipping-an-image/
     https://leetcode.com/problems/squares-of-a-sorted-array/
-    https://leetcode.com/problems/sort-array-by-parity/
-    https://leetcode.com/problems/sort-array-by-parity-ii/
-    https://leetcode.com/problems/pancake-sorting/
     https://leetcode.com/problems/reverse-prefix-of-word/
-    https://leetcode.com/problems/reverse-string-ii/
     https://leetcode.com/problems/reverse-words-in-a-string/
     https://leetcode.com/problems/reverse-words-in-a-string-iii/
-
-    Others
-    https://leetcode.com/problems/bag-of-tokens/
-    https://leetcode.com/problems/di-string-match/
-    https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/
-    https://leetcode.com/problems/sentence-similarity-iii/
     https://leetcode.com/problems/find-k-closest-elements/
     https://leetcode.com/problems/shortest-distance-to-a-character/
 
@@ -117,9 +93,7 @@ In this category, you will be given 2 arrays or lists, then have to process them
 <img alt="" src="https://assets.leetcode.com/users/images/2a44123b-9acb-4dbc-b230-d313a37039c9_1642138206.7972002.jpeg" style="width: 700px; height: 400px;">
 
     Sorted arrays
-    (*) https://leetcode.com/problems/merge-sorted-array/
-    https://leetcode.com/problems/heaters/
-    https://leetcode.com/problems/find-the-distance-value-between-two-arrays/
+    https://leetcode.com/problems/merge-sorted-array/
 
     Intersections/LCA like
     (*) https://leetcode.com/problems/intersection-of-two-linked-lists/
@@ -130,10 +104,6 @@ In this category, you will be given 2 arrays or lists, then have to process them
     (*) https://leetcode.com/problems/implement-strstr/
     https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/
     https://leetcode.com/problems/long-pressed-name/
-    https://leetcode.com/problems/longest-uncommon-subsequence-ii/
-    https://leetcode.com/problems/compare-version-numbers/
-    https://leetcode.com/problems/camelcase-matching/
-    https://leetcode.com/problems/expressive-words/
 
     Median Finder
     (*) https://leetcode.com/problems/find-median-from-data-stream/
@@ -148,8 +118,6 @@ In this category, you will be given 2 arrays or lists, then have to process them
     Others
     https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
     https://leetcode.com/problems/most-profit-assigning-work/
-    https://leetcode.com/problems/largest-merge-of-two-strings/
-    https://leetcode.com/problems/swap-adjacent-in-lr-string/
 
 
 4.Split & Merge of an array / Divide & Conquer
