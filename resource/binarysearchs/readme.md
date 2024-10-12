@@ -275,3 +275,235 @@ class Solution {
 
 23. **[Find Pivot in Rotated Sorted Array](https://leetcode.com/problems/find-pivot-in-rotated-sorted-array/)**
     - Find the pivot index where the sorted array was rotated.
+
+```
+Few Insights first:
+
+    With every iteration we reduce the search space by half.
+    At every step we compare mid element with the target, if mid element is not the target then we proceed to the half where target if present should be at and discard the another half.
+    After all the iterations when low == high, if target is present in the array then it should be present at low == high == mid , if not then we can surely say that target is not present in the array.
+    Note this, for the very first time when low > high in that case ceil(target) = arr[low] and floor(target) = arr[high].
+
+1. The usual solution
+
+class Solution {
+    public int search(int[] nums, int target) {
+        int n = nums.length;
+        int low = 0;
+        int high = n - 1;
+        
+        while (low <= high) {
+            int mid = (low + high) / 2; // this may cause integer overflow
+			if (nums[mid] == target)
+				return mid;
+            else if (nums[mid] < target)
+                low = mid + 1;
+            else
+                high = mid - 1;
+        }
+        
+        return -1;
+    }
+}
+
+2. Round down
+
+class Solution {
+    public int search(int[] nums, int target) {
+        int n = nums.length;
+        int low = 0;
+        int high = n - 1;
+        
+        while (low <= high) {
+            int mid = low + (high - low) / 2; // round down (eliminates integer overflow)
+			if (nums[mid] == target)
+				return mid;
+            else if (nums[mid] < target)
+                low = mid + 1;
+            else
+                high = mid - 1;
+        }
+        
+        return -1;
+    }
+}
+
+3. Round up
+
+class Solution {
+    public int search(int[] nums, int target) {
+        int n = nums.length;
+        int low = 0;
+        int high = n - 1;
+        
+        while (low <= high) {
+            int mid = low + (high - low + 1) / 2; // round up (eliminates integer overflow)
+			if (nums[mid] == target)
+				return mid;
+            else if (nums[mid] < target)
+                low = mid + 1;
+            else
+                high = mid - 1;
+        }
+        
+        return -1;
+    }
+}
+
+NOTE: Round up and Round down yields different result when size of search space is even, because mid in case of even number of elements is not clearly defined, so round down makes left element as mid and round up makes right element as mid.
+
+Gets Tricky now
+
+In below two variations we do not compare mid element with the target. The only comparision we make is when we get out of loop (i.e exhausted our search space completely).
+
+Mid may be the target so we keep mid element in our search space and search space will eventually shrink down to that original mid if it was equals target (ofcourse guaranteed only if duplicates were not present).
+
+4. Round down no comparision
+
+class Solution {
+    public int search(int[] nums, int target) {
+        int n = nums.length;
+        int low = 0;
+        int high = n - 1;
+        
+        while (low < high) { // notice we do not compare element at mid with our target
+            int mid = low + (high - low) / 2;
+            if (nums[mid] >= target)
+                high = mid;
+            else
+                low = mid + 1;
+        }
+        
+		 /* at this point our search space has shrinked to 
+		only one element if current element is the target element
+		then return its index else we can safely assume that element was not found*/
+		
+        return nums[low] == target ? low : -1; // low == high
+    }
+}
+
+5. Round up no comparision
+
+class Solution {
+    public int search(int[] nums, int target) {
+        int n = nums.length;
+        int low = 0;
+        int high = n - 1;
+        
+        while (low < high) { // notice we do not compare element at mid with our target
+            int mid = low + (high - low + 1) / 2;
+            if (nums[mid] <= target)
+                low = mid;
+            else
+                high = mid - 1;
+        }
+		
+        /* at this point our search space has shrinked to 
+		only one element if current element is the target element
+		then return its index else we can safely assume that element was not found*/
+		
+		return nums[low] == target ? low : -1;  // low == high
+    }
+}
+
+Where is this kind of binary search used?
+
+Well a very good application of these two variations is in finding pivot in an rotated sorted array.
+
+Code for finding pivot(minimum) element in an rotated sorted array.
+
+Note : Left snippet does not handle duplicates. A slight modification in the code (right snippet) can handle duplicates as well.
+// Without Duplicates
+class Solution {
+    public int findMin(int[] nums) {
+        int n = nums.length;
+        int low = 0;
+        int high = n - 1;
+        
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+            
+            if (nums[mid] < nums[high])
+                high = mid;
+            else if (nums[mid] > nums[high])
+                low = mid + 1;
+        }
+        
+        return nums[low];
+    }
+}
+
+// With duplicates
+class Solution {
+    public int findMin(int[] nums) {
+        int n = nums.length;
+        int low = 0;
+        int high = n - 1;
+        
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+            
+            if (nums[mid] < nums[high])
+                high = mid;
+            else if (nums[mid] > nums[high])
+                low = mid + 1;
+            else 
+                high--;
+        }
+        
+        return nums[low];
+    }
+}
+
+EDIT 1 : On suggestions given by @ashutoshsr and @Akash1408, I am adding few question to practice, although I also want to point
+out that these variations aren't explicit, two or more variations can work on same questions. The only difference between them is the way comparisons are made and how search space is shrinked, in first three variations we compare at each iteration but in last two we make comparision only once, when we have looked for all the potential positions.
+
+EDIT 2 : Answer to @proGeekCoder's question.
+
+    Can you explain how did you come up with this equation in the round up case int mid = low + (high - low + 1) / 2?
+
+![image](https://assets.leetcode.com/users/images/80491c75-b5ba-40dc-b9aa-a6d67dec485b_1625981320.6206894.png)
+
+In above image since number of elements is even so mid does not point to any element so to make it point to an element either left (index 2) or right (index 3) we have two formulas.
+
+In mid = low + (high - low) / 2 it is equivalent of saying mid = low + floor((high - low) / 2) but due to floor division in integers we don't have to write it explicitly.
+
+In mid = low + (high - low + 1) / 2 it is equivalent of saying mid = low + ceil((high - low) / 2) but due to floor division in integers we have to first add 1 to high - low then divide it by 2.
+
+![image](https://assets.leetcode.com/users/images/a97fd073-046c-42e7-a9c7-8d99810a2059_1625981320.7278633.png)
+
+Both the formulas gives same mid if number of elements is odd.
+
+Question to get your hands dirty (difficulty level not accoring to leetcode tag)
+
+Easy Questions
+
+    Search in a sorted array
+    Search Insert postion
+    Search A 2D Matrix
+    Sqrt(x)
+    First Bad Version
+    Find Smallest Letter Greater Than Target
+    Find Minimum in Rotated Sorted Array
+    Arranging Coins
+
+Medium Question
+
+    Find First and Last Position of Element in Sorted Array
+    Peak Index in a Mountain Array
+    Find Peak Element
+    Minimum Speed to Arrive on Time
+    Kth Missing Positive Number
+    Search in Rotated Sorted Array
+    Nth Digit
+    Find Minimum in Rotated Sorted Array
+    Find Minimum in Rotated Sorted Array II
+    Koko Eating Bananas
+
+Hard Questions
+
+    Find in Mountain Array
+    Find a Peak Element II
+    Search in Rotated Sorted Array II
+    Median of Two Sorted Arrays
+```
