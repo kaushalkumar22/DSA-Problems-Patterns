@@ -406,8 +406,65 @@ class UnionFind {
 15. [877. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
 
 ---
+## Graph Coloring
 
-## Minimum Spanning Trees: Prim's, Kruskal's Algorithm
+Graph coloring is a fundamental problem in graph theory that involves assigning colors to the vertices of a graph such that no two adjacent vertices share the same color. The minimum number of colors required to color a graph without any adjacent vertices sharing the same color is called the chromatic number of the graph.
+
+```java
+import java.util.*;
+
+class Solution {
+    public boolean isBipartite(int[][] graph) {
+        int n = graph.length;
+        int[] color = new int[n];
+        Arrays.fill(color, -1); // Initialize colors to -1 (uncolored)
+
+        for (int i = 0; i < n; i++) {
+            if (color[i] != -1) continue; // Skip if already colored
+
+            color[i] = 1; // Start coloring with color 1
+            Queue<Integer> q = new LinkedList<>();
+            q.add(i);
+
+            while (!q.isEmpty()) {
+                int t = q.poll();
+
+                for (int neighbor : graph[t]) {
+                    if (color[neighbor] == -1) {
+                        color[neighbor] = 1 - color[t]; // Color with opposite color
+                        q.add(neighbor);
+                    } else if (color[neighbor] == color[t]) {
+                        return false; // Conflict found
+                    }
+                }
+            }
+        }
+
+        return true; // No conflicts found, graph is bipartite
+    }
+}
+```
+### Example Problems
+
+- [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)
+- [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)
+
+---
+
+## Connected Components Problems
+
+A connected component of an undirected graph is a maximal subset of vertices such that there is a path between every pair of vertices in the subset. In other words, within each connected component, every vertex is reachable from every other vertex by traversing edges of the graph.
+
+### Example Problems
+
+1. **[547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)**
+2. **[323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)**
+3. **[1319. Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)**
+4. **[721. Accounts Merge](https://leetcode.com/problems/accounts-merge/)**
+5. **[1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)**
+---
+
+## Minimum Spanning Trees: Prim's & Kruskal's Algorithm
 
 A Minimum Spanning Tree (MST) is a subset of the edges of a connected, undirected graph that connects all the vertices together, without any cycles, and with the minimum possible total edge weight. In other words, an MST is a tree that spans all the vertices in the graph and has the least total edge weight among all possible spanning trees.
 
@@ -599,12 +656,15 @@ class Prim {
 4. Add edge (C, E) (minimum edge). Current MST: A-B-A-C-E.
 5. Add edge (C, D) (minimum edge). Current MST: A-B-A-C-E-D.
 
-## Problems
-- [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points)
-- [Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
-- [Optimize Water Distribution in a Village](https://leetcode.com/problems/optimize-water-distribution-in-a-village/)
+## MST Problems
 
-        
+1. [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
+2. [1168. Optimize Water Distribution in a Village](https://leetcode.com/problems/optimize-water-distribution-in-a-village/)
+3. [1135. Connecting Cities With Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost/)
+4. [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
+
+---
+
 ## Single Source Shortest Paths: Bellman-Ford's, Dijkstra's Algorithm
 
 Single Source Shortest Paths (SSSP) is a classic problem in graph theory. The goal is to find the shortest path from a given source vertex to all other vertices in a weighted graph. There are two widely used algorithms to solve this problem: Dijkstra's algorithm and the Bellman-Ford algorithm.
@@ -789,7 +849,9 @@ class BellmanFord {
 - **Dijkstra's Algorithm:** Efficient for graphs with non-negative weights, faster with priority queue implementation.
 - **Bellman-Ford Algorithm:** Handles negative weights and detects negative weight cycles, but less efficient for large graphs with many edges.
 
-## All-Pairs Shortest Paths: Floyd-Warshall, Johnson’s Algorithm
+---
+
+## All-Pairs Shortest Paths: Floyd-Warshall & Johnson’s Algorithm
 
 The All-Pairs Shortest Paths (APSP) problem involves finding the shortest paths between every pair of vertices in a given weighted graph.
 
@@ -991,14 +1053,16 @@ class Johnson {
 
 #### Example Problems
 
-- Leetcode: Cheapest Flights Within K Stops
-- Leetcode: Course Schedule IV
-
+1. **[787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)**
+2. **[1462. Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/)**
+ 
 ### Key Differences and Use Cases
 
 - **Floyd-Warshall Algorithm:** Simple and easy to implement, suitable for dense graphs, but not efficient for large graphs due to its \(O(V^3)\) complexity.
 - **Johnson's Algorithm:** More efficient for sparse graphs, uses both Bellman-Ford and Dijkstra's algorithms, and handles negative weights, but not suitable if the graph contains negative weight cycles.
-    
+
+---
+
 ## Strongly Connected Components
 
 Simple DFS and visited array are used to find SCC in an undirected graph. Tarjan's algorithm and Kosaraju's algorithm are used to find SCC in directed graphs.
@@ -1091,8 +1155,11 @@ class TarjanSCC {
 
 - [SCC Video](https://www.youtube.com/watch?v=aZXi1unBdJA&ab_channel=WilliamFiset)
 - [Bridge and Articulation Point Video](https://www.youtube.com/watch?v=aZXi1unBdJA&ab_channel=WilliamFiset)
-- [Implementation](https://leetcode.com/problems/critical-connections-in-a-network)
-- [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
+
+Here are the LeetCode problems with their indices included:
+
+1. **[1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network)**
+2. **[210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)**
 
 ### Kosaraju’s Algorithm
 
@@ -1203,13 +1270,16 @@ class KosarajuSCC {
 
 ### Example Problems
 
-- [Video](https://www.youtube.com/watch?v=RpgcYiky7uw&ab_channel=TusharRoy-CodingMadeSimple)
 - [Implementation](https://leetcode.com/problems/course-schedule/discuss/249688/Different-O(V%2BE)-solution-using-Kosaraju's-algorithm)
 - [Course Schedule](https://leetcode.com/problems/course-schedule/)
 - [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)
-- [A Walk to Remember](https://www.hackerearth.com/practice/algorithms/graphs/strongly-connected-components/practice-problems/algorithm/a-walk-to-remember-qualifier2/submissions/)
-- [YouTube Video](https://www.youtube.com/watch?v=aZXi1unBdJA)
 
+#### Refrence
+
+- [Video](https://www.youtube.com/watch?v=RpgcYiky7uw&ab_channel=TusharRoy-CodingMadeSimple)
+- - [YouTube Video](https://www.youtube.com/watch?v=aZXi1unBdJA)
+- [A Walk to Remember](https://www.hackerearth.com/practice/algorithms/graphs/strongly-connected-components/practice-problems/algorithm/a-walk-to-remember-qualifier2/submissions/)
+  
 ## Travelling Salesman Problem (TSP)
 
 The Traveling Salesman Problem (TSP) is a classic optimization problem where the goal is to find the shortest possible route that visits each city exactly once and returns to the original city. TSP is a well-known NP-hard problem, meaning that there is no known polynomial-time algorithm that can solve all instances optimally.
@@ -1482,75 +1552,6 @@ The time complexity of the Ford-Fulkerson algorithm depends on the choice of pat
 #### Example Problem
 
 - [Maximum Students Taking Exam](https://leetcode.com/problems/maximum-students-taking-exam)
-
----
-
-## Graph Coloring
-
-Graph coloring is a fundamental problem in graph theory that involves assigning colors to the vertices of a graph such that no two adjacent vertices share the same color. The minimum number of colors required to color a graph without any adjacent vertices sharing the same color is called the chromatic number of the graph.
-
-```java
-import java.util.*;
-
-class Solution {
-    public boolean isBipartite(int[][] graph) {
-        int n = graph.length;
-        int[] color = new int[n];
-        Arrays.fill(color, -1); // Initialize colors to -1 (uncolored)
-
-        for (int i = 0; i < n; i++) {
-            if (color[i] != -1) continue; // Skip if already colored
-
-            color[i] = 1; // Start coloring with color 1
-            Queue<Integer> q = new LinkedList<>();
-            q.add(i);
-
-            while (!q.isEmpty()) {
-                int t = q.poll();
-
-                for (int neighbor : graph[t]) {
-                    if (color[neighbor] == -1) {
-                        color[neighbor] = 1 - color[t]; // Color with opposite color
-                        q.add(neighbor);
-                    } else if (color[neighbor] == color[t]) {
-                        return false; // Conflict found
-                    }
-                }
-            }
-        }
-
-        return true; // No conflicts found, graph is bipartite
-    }
-}
-```
-### Example Problems
-
-- [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)
-- [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)
-
----
-
-## Connected Components Problems
-
-A connected component of an undirected graph is a maximal subset of vertices such that there is a path between every pair of vertices in the subset. In other words, within each connected component, every vertex is reachable from every other vertex by traversing edges of the graph.
-
-### Example Problems
-
-- [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
-- [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
-- [Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
-- [Accounts Merge](https://leetcode.com/problems/accounts-merge/)
-- [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)
-
----
-
-## Flood Fill Algorithm
-
-The Flood Fill Algorithm is a technique used to determine a connected area within a grid or bitmap and replace or manipulate its color. It is commonly used in image processing, computer graphics, and various other applications involving grid-based data structures.
-
-### Example Problem
-
-- [Flood Fill](https://leetcode.com/problems/flood-fill/)
 
 ---
 
