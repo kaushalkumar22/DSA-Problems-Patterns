@@ -751,8 +751,10 @@ To find the shortest paths from \(A\):
 
 #### Example Problems
 
-- Leetcode: Network Delay Time
-- Leetcode: Cheapest Flights Within K Stops
+- **[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)**
+- **[Network Delay Time](https://leetcode.com/problems/network-delay-time/)**
+- **[Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)**
+- **[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)**
 
 ### Bellman-Ford Algorithm
 
