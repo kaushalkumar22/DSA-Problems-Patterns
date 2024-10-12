@@ -105,3 +105,98 @@
 
 ---
 
+Here's a consolidated list of Heap-based problems under specific patterns, grouped for better understanding and mastery of the Heap data structure:
+
+---
+
+### **Top K Pattern**
+
+These problems revolve around using a heap to find the top K elements or similar tasks.
+
+1. **[215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)**
+   - Find the Kth largest element in an unsorted array.
+   
+2. **[973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)**
+   - Given a list of points, find the K closest points to the origin.
+   
+3. **[347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)**
+   - Given an array of integers, find the K most frequent elements.
+   
+4. **[692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)**
+   - Find the K most frequent words from a list, sorted by frequency and lexicographically.
+   
+5. **[264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)**
+   - Find the Nth ugly number where an ugly number is one whose only prime factors are 2, 3, or 5.
+   
+6. **[451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)**
+   - Sort characters in a string by frequency.
+   
+7. **[703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)**
+   - Design a class to maintain the Kth largest element in a stream of numbers.
+   
+8. **[767. Reorganize String](https://leetcode.com/problems/reorganize-string/)**
+   - Rearrange a string such that no adjacent characters are the same.
+   
+9. **[358. Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/)**
+   - Rearrange a string such that no two same characters are less than K distance apart.
+   
+10. **[1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows](https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)**
+    - Find the Kth smallest sum of elements from a matrix where each row is sorted.
+
+---
+
+### **Merge K Sorted Pattern**
+
+These problems focus on merging sorted lists or arrays, often using a heap to maintain the smallest or largest element.
+
+1. **[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)**
+   - Merge K sorted linked lists and return the sorted list.
+
+2. **[373. Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)**
+   - Find the K pairs with the smallest sums from two sorted arrays.
+   
+3. **[378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)**
+   - Find the Kth smallest number in a sorted matrix (each row and column is sorted).
+
+---
+
+### **Two Heaps Pattern**
+
+These problems use two heaps (one max-heap and one min-heap) to maintain order in a stream or sliding window.
+
+1. **[295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)**
+   - Add numbers to a data stream and find the median in constant time.
+   
+2. **[480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)**
+   - Find the median of each sliding window of size K in an array.
+   
+3. **[502. IPO](https://leetcode.com/problems/ipo/)**
+   - Find the maximum capital after applying for K projects, given a list of profits and initial capital.
+
+---
+
+### **Minimum Number Pattern**
+
+These problems involve finding minimum costs, times, or operations, and heaps are used to efficiently find the optimal solution.
+
+1. **[1167. Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)**
+   - Find the minimum cost to connect all sticks (or ropes) into one stick.
+   
+2. **[253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)**
+   - Find the minimum number of meeting rooms required for a list of meeting intervals.
+   
+3. **[759. Employee Free Time](https://leetcode.com/problems/employee-free-time/)**
+   - Given the working time of several employees, find the free time slots common to all employees.
+   
+4. **[857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)**
+   - Hire exactly K workers with the minimum possible cost given their quality and wage expectations.
+   
+5. **[621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)**
+   - Schedule tasks with a cooling period and minimize the total execution time.
+   
+6. **[871. Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)**
+   - Given a target distance and gas stations, find the minimum number of refueling stops to reach the destination.
+
+---
+
+These problems, grouped by their underlying patterns, will help you build a strong understanding of heaps and how they can be applied in different contexts.
