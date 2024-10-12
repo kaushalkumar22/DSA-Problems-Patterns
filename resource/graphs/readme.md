@@ -1485,6 +1485,40 @@ The time complexity of the Ford-Fulkerson algorithm depends on the choice of pat
 
 Graph coloring is a fundamental problem in graph theory that involves assigning colors to the vertices of a graph such that no two adjacent vertices share the same color. The minimum number of colors required to color a graph without any adjacent vertices sharing the same color is called the chromatic number of the graph.
 
+```java
+import java.util.*;
+
+class Solution {
+    public boolean isBipartite(int[][] graph) {
+        int n = graph.length;
+        int[] color = new int[n];
+        Arrays.fill(color, -1); // Initialize colors to -1 (uncolored)
+
+        for (int i = 0; i < n; i++) {
+            if (color[i] != -1) continue; // Skip if already colored
+
+            color[i] = 1; // Start coloring with color 1
+            Queue<Integer> q = new LinkedList<>();
+            q.add(i);
+
+            while (!q.isEmpty()) {
+                int t = q.poll();
+
+                for (int neighbor : graph[t]) {
+                    if (color[neighbor] == -1) {
+                        color[neighbor] = 1 - color[t]; // Color with opposite color
+                        q.add(neighbor);
+                    } else if (color[neighbor] == color[t]) {
+                        return false; // Conflict found
+                    }
+                }
+            }
+        }
+
+        return true; // No conflicts found, graph is bipartite
+    }
+}
+```
 ### Example Problems
 
 - [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)
