@@ -186,6 +186,11 @@ void DFSIterative(int v) {
 - [997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)
 - [802. Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)
 - [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
+- [1470. Shuffle the Array](https://leetcode.com/problems/shuffle-the-array)
+- [1034. Coloring A Border](https://leetcode.com/problems/coloring-a-border)
+- [1376. Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees)
+
+---
 
 ## Topological Sort:
 
@@ -306,6 +311,97 @@ private void dfs(int node, boolean[] visited, Stack<Integer> stack, List<List<In
 - [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/solution/)
 - [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/description/)
 - [Parallel Courses](https://leetcode.com/problems/parallel-courses/description/)
+
+---
+
+## Union-Find (Disjoint Set)
+
+Union-Find, also known as Disjoint Set, is a data structure that keeps track of a set of elements partitioned into disjoint subsets. It supports two main operations: union, which merges two sets, and find, which determines which set a particular element belongs to. Union-Find is commonly used for solving problems related to connectivity in graphs.
+
+### Basics of Union-Find
+
+- **Initialization**: Initially, each element is in its own set, representing a singleton set.
+- **Union Operation**: Merge two sets into one by connecting their representatives.
+- **Find Operation**: Determine which set a particular element belongs to. It returns the representative of the set to which the element belongs.
+
+### Path Compression and Union by Rank
+
+Two optimization techniques commonly used with Union-Find are Path Compression and Union by Rank.
+
+- **Path Compression**: During the find operation, each visited node on the path to the root is connected directly to the root. This flattens the structure of the tree, reducing the time complexity of future find operations.
+- **Union by Rank**: During the union operation, the tree with the smaller rank (depth) is attached to the root of the tree with the larger rank. This helps keep the tree balanced, ensuring better overall performance.
+
+### Applications:
+
+- Kruskal's algorithm for finding Minimum Spanning Trees
+- Cycle detection in graphs
+- Connected components in an undirected graph
+- Dynamic connectivity in social networks and computer networks
+
+### Time Complexity:
+
+With Path Compression and Union by Rank optimizations, both Find and Union operations have nearly
+
+ constant time complexity, \(O(\alpha(n))\), where \(\alpha\) is the inverse Ackermann function.
+
+### Implementation
+
+```java
+class UnionFind {
+    private int[] parent, rank;
+
+    UnionFind(int size) {
+        parent = new int[size];
+        rank = new int[size];
+        for (int i = 0; i < size; i++) {
+            parent[i] = i;
+            rank[i] = 0;
+        }
+    }
+
+    int find(int p) {
+        if (parent[p] != p) {
+            parent[p] = find(parent[p]);
+        }
+        return parent[p];
+    }
+
+    void union(int p, int q) {
+        int rootP = find(p);
+        int rootQ = find(q);
+        if (rootP != rootQ) {
+            if (rank[rootP] < rank[rootQ]) {
+                parent[rootP] = rootQ;
+            } else if (rank[rootP] > rank[rootQ]) {
+                parent[rootQ] = rootP;
+            } else {
+                parent[rootQ] = rootP;
+                rank[rootP]++;
+            }
+        }
+    }
+}
+```
+
+### **Union-Find Problems:**
+
+1. [547. Friend Circles](https://leetcode.com/problems/friend-circles/)
+2. [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+3. [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
+4. [1319. Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
+5. [990. Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)
+6. [721. Accounts Merge](https://leetcode.com/problems/accounts-merge/)
+7. [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+8. [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)
+9. [1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)
+10. [1519. The Earliest Moment When Everyone Become Friends](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/)
+11. [1168. Optimize Water Distribution in a Village](https://leetcode.com/problems/optimize-water-distribution-in-a-village/)
+12. [1135. Connecting Cities With Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost/)
+13. [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)
+14. [1137. Bridges in a Graph](https://leetcode.com/problems/bridges-in-a-graph/)
+15. [877. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
+
+---
 
 ## Minimum Spanning Trees: Prim's, Kruskal's Algorithm
 
@@ -1109,92 +1205,6 @@ class KosarajuSCC {
 - [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)
 - [A Walk to Remember](https://www.hackerearth.com/practice/algorithms/graphs/strongly-connected-components/practice-problems/algorithm/a-walk-to-remember-qualifier2/submissions/)
 - [YouTube Video](https://www.youtube.com/watch?v=aZXi1unBdJA)
-
-## Union-Find (Disjoint Set)
-
-Union-Find, also known as Disjoint Set, is a data structure that keeps track of a set of elements partitioned into disjoint subsets. It supports two main operations: union, which merges two sets, and find, which determines which set a particular element belongs to. Union-Find is commonly used for solving problems related to connectivity in graphs.
-
-### Basics of Union-Find
-
-- **Initialization**: Initially, each element is in its own set, representing a singleton set.
-- **Union Operation**: Merge two sets into one by connecting their representatives.
-- **Find Operation**: Determine which set a particular element belongs to. It returns the representative of the set to which the element belongs.
-
-### Path Compression and Union by Rank
-
-Two optimization techniques commonly used with Union-Find are Path Compression and Union by Rank.
-
-- **Path Compression**: During the find operation, each visited node on the path to the root is connected directly to the root. This flattens the structure of the tree, reducing the time complexity of future find operations.
-- **Union by Rank**: During the union operation, the tree with the smaller rank (depth) is attached to the root of the tree with the larger rank. This helps keep the tree balanced, ensuring better overall performance.
-
-### Applications:
-
-- Kruskal's algorithm for finding Minimum Spanning Trees
-- Cycle detection in graphs
-- Connected components in an undirected graph
-- Dynamic connectivity in social networks and computer networks
-
-### Time Complexity:
-
-With Path Compression and Union by Rank optimizations, both Find and Union operations have nearly
-
- constant time complexity, \(O(\alpha(n))\), where \(\alpha\) is the inverse Ackermann function.
-
-### Implementation
-
-```java
-class UnionFind {
-    private int[] parent, rank;
-
-    UnionFind(int size) {
-        parent = new int[size];
-        rank = new int[size];
-        for (int i = 0; i < size; i++) {
-            parent[i] = i;
-            rank[i] = 0;
-        }
-    }
-
-    int find(int p) {
-        if (parent[p] != p) {
-            parent[p] = find(parent[p]);
-        }
-        return parent[p];
-    }
-
-    void union(int p, int q) {
-        int rootP = find(p);
-        int rootQ = find(q);
-        if (rootP != rootQ) {
-            if (rank[rootP] < rank[rootQ]) {
-                parent[rootP] = rootQ;
-            } else if (rank[rootP] > rank[rootQ]) {
-                parent[rootQ] = rootP;
-            } else {
-                parent[rootQ] = rootP;
-                rank[rootP]++;
-            }
-        }
-    }
-}
-```
-
-### Example Problems
-
-- [Number of Islands](https://leetcode.com/problems/number-of-islands/)
-- [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
-- [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)
-- [The Earliest Moment When Everyone Become Friends](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/)
-- [Optimize Water Distribution in a Village](https://leetcode.com/problems/optimize-water-distribution-in-a-village/)
-- [Connecting Cities With Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost/)
-- [Bridges in a Graph](https://www.geeksforgeeks.org/bridge-in-a-graph/)
-
-By using Union-Find and Strongly Connected Components algorithms, many complex graph problems can be solved efficiently, ensuring optimal performance even for large datasets.
-
-
-Here's the revised version of the `git.md` file with a more structured and organized approach:
-
----
 
 ## Travelling Salesman Problem (TSP)
 
