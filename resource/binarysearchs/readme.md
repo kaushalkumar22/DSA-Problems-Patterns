@@ -200,3 +200,78 @@ class Solution {
 }
 
 ```
+
+---
+
+### Binary Search Problems
+
+1. **[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)**
+   - Find the median of two sorted arrays with a combined length of \( m + n \).
+
+2. **[Kth Smallest Element in Two Sorted Arrays](https://leetcode.com/problems/kth-smallest-element-in-two-sorted-arrays/)**
+   - Find the kth smallest element in the union of two sorted arrays.
+
+3. **[Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)**
+   - Search for a target in an array where the size is unknown.
+
+4. **[Capacity to Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)**
+   - Determine the minimum capacity needed to ship packages within a given number of days.
+
+5. **[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)**
+   - Find the starting and ending position of a given target in a sorted array.
+
+6. **[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)**
+   - Find the k closest elements to a given target in a sorted array.
+
+7. **[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)**
+   - Find the kth smallest element in a row-wise and column-wise sorted matrix.
+
+8. **[Peak Element](https://leetcode.com/problems/find-peak-element/)**
+   - Find a peak element in an array, where an element is considered a peak if it is greater than its neighbors.
+
+9. **[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)**
+   - Find the index of the peak in a mountain array.
+
+10. **[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)**
+    - Search for a target value in a 2D matrix that has been sorted.
+
+11. **[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)**
+    - Search for a target value in a 2D matrix where each row and column is sorted in ascending order.
+
+12. **[Search in a Nearly Sorted Array](https://leetcode.com/problems/search-in-a-nearly-sorted-array/)**
+    - Search for a target in a nearly sorted array where each element may be misplaced by one position.
+
+13. **[Search Insert Position](https://leetcode.com/problems/search-insert-position/)**
+    - Find the index at which a target should be inserted into a sorted array.
+
+14. **[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)**
+    - Find the single element in a sorted array where every other element appears twice.
+
+15. **[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)**
+    - Split an array into \( m \) non-empty continuous subarrays such that the largest sum among these subarrays is minimized.
+
+16. **[First Bad Version](https://leetcode.com/problems/first-bad-version/)**
+    - Find the first bad version in a list of versions, where some are good and others are bad.
+
+17. **[Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/)**
+    - Find the longest duplicate substring in a given string.
+
+### Binary Search in Rotated Sorted Arrays
+
+18. **[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)**
+    - Search for a target in a rotated sorted array.
+
+19. **[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)**
+    - Search for a target in a rotated sorted array that may contain duplicates.
+
+20. **[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)**
+    - Find the minimum element in a rotated sorted array.
+
+21. **[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)**
+    - Find the minimum element in a rotated sorted array that may contain duplicates.
+
+22. **[Find Number of Rotations in Rotated Sorted Array](https://leetcode.com/problems/find-rotation-count/)**
+    - Determine the number of times a sorted array has been rotated.
+
+23. **[Find Pivot in Rotated Sorted Array](https://leetcode.com/problems/find-pivot-in-rotated-sorted-array/)**
+    - Find the pivot index where the sorted array was rotated.
