@@ -1,5 +1,7 @@
 # Binary Search Problems
 
+https://leetcode.com/discuss/study-guide/2371234/An-opinionated-guide-to-binary-search-(comprehensive-resource-with-a-bulletproof-template)
+
 ### 1. Difficult to Figure Out If Binary Search Can Be Applied
 These problems typically involve finding a minimum value that satisfies certain conditions in an array of length \( n \). The runtime for these problems is usually \( O(n \log m) \).
 
