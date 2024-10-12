@@ -954,3 +954,21 @@ Suppose we make multiple moves overall score would be.
 Notice that each term would cancel each other except first and last, so if we are at agiven grid cell, we need to find minimum c1 so that score can be maximized, so we need to find the minimum number in grid, for example if we are at 14 , we need to find blue or red grid value. Minium in this grid can be calculated using prefix sum(minimum) technique, see code
 ```
 [2017. Grid Game](https://leetcode.com/problems/grid-game/description/)
+
+
+1. **[1991. Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)**
+   - Find the middle index in the array such that the sum of the elements to the left is equal to the sum of the elements to the right.
+
+2. **[238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)**
+   - Given an array, return an array such that output[i] is equal to the product of all the elements of the array except `nums[i]`.
+
+3. **[152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)**
+   - Find the contiguous subarray within an array (containing at least one number) which has the largest product.
+
+4. **[1570. Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/)**
+   - Count the number of ways to split an array into two non-empty parts such that the sum of the left part is less than or equal to the sum of the right part.
+
+5. **[304. Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)**
+   - Given a 2D matrix, calculate the sum of the elements inside the rectangle defined by its upper left corner and lower right corner.
+
+---
