@@ -1,6 +1,8 @@
 # Back-Tracking
 
 
+https://medium.com/algorithms-and-leetcode/backtracking-e001561b9f28
+
 1. [**17. Letter Combinations of a Phone Number**](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 2. [**22. Generate Parentheses**](https://leetcode.com/problems/generate-parentheses/)
 3. [**37. Sudoku Solver**](https://leetcode.com/problems/sudoku-solver/)
