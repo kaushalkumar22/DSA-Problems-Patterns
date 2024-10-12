@@ -171,7 +171,7 @@ void DFSIterative(int v) {
 - Recursive DFS: \(O(V)\) due to the call stack.
 - Iterative DFS: \(O(V)\) due to the explicit stack used.
 
-### Problem List
+### DFS Problem List
 
 - [1376. Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)
 - [1020. Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)
@@ -189,7 +189,11 @@ void DFSIterative(int v) {
 - [1470. Shuffle the Array](https://leetcode.com/problems/shuffle-the-array)
 - [1034. Coloring A Border](https://leetcode.com/problems/coloring-a-border)
 - [1376. Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees)
-
+- [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)
+- [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
+- [332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
+- [139. Word Break II](https://leetcode.com/problems/word-break-ii/)
+- [79. Word Search](https://leetcode.com/problems/word-search/) 
 ---
 
 ## Topological Sort:
