@@ -1,5 +1,7 @@
 # DSA-Problems-Patterns
 
+---
+
 ## Backtracking
 | **Category** | **Problem** | **Difficulty** | **Solution** |
 |--------------|-------------|----------------|--------------|
@@ -20,6 +22,8 @@
 |  | [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) | Medium | [Solution](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/solutions/) |
 |  | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation) | Medium | [Solution](https://leetcode.com/problems/letter-case-permutation/solutions/) |
 |  | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target) | Medium | [Solution](https://leetcode.com/problems/all-paths-from-source-to-target/solutions/) |
+
+---
 
 ## Binary Search
 
@@ -59,6 +63,37 @@
 |  | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii) | Hard | [Solution](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/solutions/) |
 |  | [Find Number of Rotations in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) | Medium | [Solution](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/solutions/) |
 |  | [Find Pivot in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | Medium | [Solution](https://leetcode.com/problems/search-in-rotated-sorted-array/solutions/) |
+
+---
+## Bit Manipulation
+
+| **Category**       | **Problem**                                               | **Difficulty** | **Solution**                                                                 |
+|--------------------|-----------------------------------------------------------|----------------|------------------------------------------------------------------------------|
+| **Bit Manipulation** | [7. Reverse Integer](https://leetcode.com/problems/reverse-integer) | Medium         | [Solution](https://leetcode.com/problems/reverse-integer/solutions/)         |
+|                    | [67. Add Binary](https://leetcode.com/problems/add-binary) | Easy           | [Solution](https://leetcode.com/problems/add-binary/solutions/)              |
+|                    | [136. Single Number](https://leetcode.com/problems/single-number) | Easy           | [Solution](https://leetcode.com/problems/single-number/solutions/)           |
+|                    | [137. Single Number II](https://leetcode.com/problems/single-number-ii) | Medium         | [Solution](https://leetcode.com/problems/single-number-ii/solutions/)        |
+|                    | [190. Reverse Bits](https://leetcode.com/problems/reverse-bits) | Easy           | [Solution](https://leetcode.com/problems/reverse-bits/solutions/)            |
+|                    | [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | Easy           | [Solution](https://leetcode.com/problems/number-of-1-bits/solutions/)        |
+|                    | [201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | Medium         | [Solution](https://leetcode.com/problems/bitwise-and-of-numbers-range/solutions/) |
+|                    | [268. Missing Number](https://leetcode.com/problems/missing-number) | Easy           | [Solution](https://leetcode.com/problems/missing-number/solutions/)          |
+|                    | [338. Counting Bits](https://leetcode.com/problems/counting-bits) | Medium         | [Solution](https://leetcode.com/problems/counting-bits/solutions/)           |
+|                    | [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | Medium         | [Solution](https://leetcode.com/problems/sum-of-two-integers/solutions/)     |
+
+---
+
+## Bucket Sort Problems** 
+
+| **Category**      | **Problem**                                               | **Difficulty** | **Solution**                                                                 |
+|-------------------|-----------------------------------------------------------|----------------|------------------------------------------------------------------------------|
+| **Bucket Sort**   | [164. Maximum Gap](https://leetcode.com/problems/maximum-gap) | Hard           | [Solution](https://leetcode.com/problems/maximum-gap/solutions/)             |
+|                   | [220. Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii) | Hard           | [Solution](https://leetcode.com/problems/contains-duplicate-iii/solutions/)  |
+|                   | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | Medium         | [Solution](https://leetcode.com/problems/top-k-frequent-elements/solutions/) |
+|                   | [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | Medium         | [Solution](https://leetcode.com/problems/sort-characters-by-frequency/solutions/) |
+|                   | [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words) | Medium         | [Solution](https://leetcode.com/problems/top-k-frequent-words/solutions/)    |
+|                   | [912. Sort an Array](https://leetcode.com/problems/sort-an-array) | Medium         | [Solution](https://leetcode.com/problems/sort-an-array/solutions/)           |
+
+This table covers **Bucket Sort** problems with links to their respective solutions. Let me know if you need further adjustments!
 
 The table now includes links to the LeetCode problem and the corresponding solution. Let me know if you'd like further adjustments!
 
