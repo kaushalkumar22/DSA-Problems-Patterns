@@ -1,6 +1,66 @@
 # DSA-Problems-Patterns
 
-Here is the updated tabular format with the added "Solution" and "Frequency" columns:
+## Backtracking
+| **Category** | **Problem** | **Difficulty** | **Solution** |
+|--------------|-------------|----------------|--------------|
+| **Backtracking** | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | Medium | [Solution](https://leetcode.com/problems/letter-combinations-of-a-phone-number/solutions/) |
+|  | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) | Medium | [Solution](https://leetcode.com/problems/generate-parentheses/solutions/) |
+|  | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | Hard | [Solution](https://leetcode.com/problems/sudoku-solver/solutions/) |
+|  | [Combination Sum](https://leetcode.com/problems/combination-sum) | Medium | [Solution](https://leetcode.com/problems/combination-sum/solutions/) |
+|  | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) | Medium | [Solution](https://leetcode.com/problems/combination-sum-ii/solutions/) |
+|  | [Permutations](https://leetcode.com/problems/permutations) | Medium | [Solution](https://leetcode.com/problems/permutations/solutions/) |
+|  | [Permutations II](https://leetcode.com/problems/permutations-ii) | Medium | [Solution](https://leetcode.com/problems/permutations-ii/solutions/) |
+|  | [N-Queens](https://leetcode.com/problems/n-queens) | Hard | [Solution](https://leetcode.com/problems/n-queens/solutions/) |
+|  | [Subsets](https://leetcode.com/problems/subsets) | Medium | [Solution](https://leetcode.com/problems/subsets/solutions/) |
+|  | [Subsets II](https://leetcode.com/problems/subsets-ii) | Medium | [Solution](https://leetcode.com/problems/subsets-ii/solutions/) |
+|  | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses) | Medium | [Solution](https://leetcode.com/problems/restore-ip-addresses/solutions/) |
+|  | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii) | Medium | [Solution](https://leetcode.com/problems/unique-binary-search-trees-ii/solutions/) |
+|  | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) | Medium | [Solution](https://leetcode.com/problems/palindrome-partitioning/solutions/) |
+|  | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string) | Medium | [Solution](https://leetcode.com/problems/valid-parenthesis-string/solutions/) |
+|  | [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) | Medium | [Solution](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/solutions/) |
+|  | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation) | Medium | [Solution](https://leetcode.com/problems/letter-case-permutation/solutions/) |
+|  | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target) | Medium | [Solution](https://leetcode.com/problems/all-paths-from-source-to-target/solutions/) |
+
+## Binary Search
+
+| **Category** | **Problem** | **Difficulty** | **Solution** |
+|--------------|-------------|----------------|--------------|
+| **Binary Search** | [Minimum Number of Days to Make M Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets) | Hard | [Solution](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/solutions/) |
+|  | [Sum of Mutated Array Closest to Target](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target) | Medium | [Solution](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/solutions/) |
+|  | [Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold) | Medium | [Solution](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/solutions/) |
+|  | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas) | Medium | [Solution](https://leetcode.com/problems/koko-eating-bananas/solutions/) |
+|  | [Capacity to Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days) | Medium | [Solution](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/solutions/) |
+|  | [Find Peak Element](https://leetcode.com/problems/find-peak-element) | Medium | [Solution](https://leetcode.com/problems/find-peak-element/solutions/) |
+|  | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) | Medium | [Solution](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/solutions/) |
+|  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | Medium | [Solution](https://leetcode.com/problems/search-in-rotated-sorted-array/solutions/) |
+|  | [Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array) | Medium | [Solution](https://leetcode.com/problems/missing-element-in-sorted-array/solutions/) |
+|  | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target) | Easy | [Solution](https://leetcode.com/problems/find-smallest-letter-greater-than-target/solutions/) |
+|  | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | Medium | [Solution](https://leetcode.com/problems/peak-index-in-a-mountain-array/solutions/) |
+|  | [H-Index II](https://leetcode.com/problems/h-index-ii) | Medium | [Solution](https://leetcode.com/problems/h-index-ii/solutions/) |
+|  | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | Medium | [Solution](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/solutions/) |
+|  | [First Bad Version](https://leetcode.com/problems/first-bad-version) | Easy | [Solution](https://leetcode.com/problems/first-bad-version/solutions/) |
+|  | [Time-Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store) | Medium | [Solution](https://leetcode.com/problems/time-based-key-value-store/solutions/) |
+|  | [Online Election](https://leetcode.com/problems/online-election) | Medium | [Solution](https://leetcode.com/problems/online-election/solutions/) |
+|  | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight) | Medium | [Solution](https://leetcode.com/problems/random-pick-with-weight/solutions/) |
+|  | [Find Right Interval](https://leetcode.com/problems/find-right-interval) | Medium | [Solution](https://leetcode.com/problems/find-right-interval/solutions/) |
+|  | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | Hard | [Solution](https://leetcode.com/problems/median-of-two-sorted-arrays/solutions/) |
+|  | [Kth Smallest Element in Two Sorted Arrays](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix) | Hard | [Solution](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/solutions/) |
+|  | [Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size) | Medium | [Solution](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/solutions/) |
+|  | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements) | Medium | [Solution](https://leetcode.com/problems/find-k-closest-elements/solutions/) |
+|  | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix) | Medium | [Solution](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/solutions/) |
+|  | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) | Medium | [Solution](https://leetcode.com/problems/search-a-2d-matrix/solutions/) |
+|  | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii) | Medium | [Solution](https://leetcode.com/problems/search-a-2d-matrix-ii/solutions/) |
+|  | [Search in a Nearly Sorted Array](https://leetcode.com/problems/search-in-a-nearly-sorted-array) | Medium | [Solution](https://leetcode.com/problems/search-in-a-nearly-sorted-array/solutions/) |
+|  | [Search Insert Position](https://leetcode.com/problems/search-insert-position) | Easy | [Solution](https://leetcode.com/problems/search-insert-position/solutions/) |
+|  | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array) | Medium | [Solution](https://leetcode.com/problems/single-element-in-a-sorted-array/solutions/) |
+|  | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum) | Hard | [Solution](https://leetcode.com/problems/split-array-largest-sum/solutions/) |
+|  | [Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring) | Hard | [Solution](https://leetcode.com/problems/longest-duplicate-substring/solutions/) |
+|  | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | Medium | [Solution](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/solutions/) |
+|  | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii) | Hard | [Solution](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/solutions/) |
+|  | [Find Number of Rotations in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) | Medium | [Solution](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/solutions/) |
+|  | [Find Pivot in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | Medium | [Solution](https://leetcode.com/problems/search-in-rotated-sorted-array/solutions/) |
+
+The table now includes links to the LeetCode problem and the corresponding solution. Let me know if you'd like further adjustments!
 
 | **Category**       | **Problem**                                          | **Solution** | **Difficulty** | **Frequency** |
 |--------------------|------------------------------------------------------|--------------|----------------|---------------|
