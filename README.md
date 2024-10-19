@@ -93,338 +93,267 @@
 |                   | [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words) | Medium         | [Solution](https://leetcode.com/problems/top-k-frequent-words/solutions/)    |
 |                   | [912. Sort an Array](https://leetcode.com/problems/sort-an-array) | Medium         | [Solution](https://leetcode.com/problems/sort-an-array/solutions/)           |
 
-This table covers **Bucket Sort** problems with links to their respective solutions. Let me know if you need further adjustments!
+---
 
-The table now includes links to the LeetCode problem and the corresponding solution. Let me know if you'd like further adjustments!
+## Slow & Fast Pointers
 
-| **Category**       | **Problem**                                          | **Solution** | **Difficulty** | **Frequency** |
-|--------------------|------------------------------------------------------|--------------|----------------|---------------|
-| **Array / String** |                                                      |              |                |               |
-|                    | Merge Sorted Array                                   | Solution     | Easy           | High          |
-|                    | Remove Element                                       | Solution     | Easy           | High          |
-|                    | Remove Duplicates from Sorted Array                  | Solution     | Easy           | Medium        |
-|                    | Remove Duplicates from Sorted Array II               | Solution     | Medium         | Medium        |
-|                    | Majority Element                                     | Solution     | Easy           | High          |
-|                    | Rotate Array                                         | Solution     | Medium         | High          |
-|                    | Best Time to Buy and Sell Stock                      | Solution     | Easy           | High          |
-|                    | Best Time to Buy and Sell Stock II                   | Solution     | Medium         | High          |
-|                    | H-Index                                              | Solution     | Medium         | Low           |
-|                    | Insert Delete GetRandom O(1)                         | Solution     | Medium         | Medium        |
-|                    | Product of Array Except Self                         | Solution     | Medium         | High          |
-|                    | Integer to Roman                                     | Solution     | Medium         | Medium        |
-|                    | Length of Last Word                                  | Solution     | Easy           | High          |
-|                    | Longest Common Prefix                                | Solution     | Easy           | High          |
-|                    | Reverse Words in a String                            | Solution     | Medium         | High          |
-|                    | Zigzag Conversion                                    | Solution     | Medium         | Medium        |
-|                    | Find the Index of the First Occurrence in a String   | Solution     | Easy           | Medium        |
-|                    | Text Justification                                   | Solution     | Hard           | Low           |
-|**Two Pointers**    |                                        |              |                |               |
-|                    | Valid Palindrome                                     | Solution     | Easy           | Medium        |
-|                    | Is Subsequence                                       | Solution     | Easy           | Medium        |
-|                    | Two Sum II - Input Array Is Sorted                   | Solution     | Medium         | High          |
-|                    | Container With Most Water                            | Solution     | Medium         | High          |
-|                    | 3Sum                                                 | Solution     | Medium         | High          |
-|**Sliding Window**  |                                        |              |                |               |
-|                    | Minimum Size Subarray Sum                            | Solution     | Medium         | Medium        |
-|                    | Longest Substring Without Repeating Characters       | Solution     | Medium         | High          |
-|                    | Substring with Concatenation of All Words            | Solution     | Hard           | Low           |
-|                    | Minimum Window Substring                             | Solution     | Hard           | High          |
-| **Matrix**         |                                                      |              |                |               |
-|                    | Valid Sudoku                                         | Solution     | Medium         | High          |
-|                    | Spiral Matrix                                        | Solution     | Medium         | Medium        |
-|                    | Rotate Image                                         | Solution     | Medium         | Medium        |
-|                    | Set Matrix Zeroes                                    | Solution     | Medium         | Medium        |
-|                    | Game of Life                                         | Solution     | Medium         | Low           |
-|**Hash Map / Set**  |                                        |              |                |               |
-|                    | Ransom Note                                          | Solution     | Easy           | High          |
-|                    | Isomorphic Strings                                   | Solution     | Easy           | Medium        |
-|                    | Word Pattern                                         | Solution     | Easy           | Medium        |
-|                    | Valid Anagram                                        | Solution     | Easy           | High          |
-|                    | Group Anagrams                                       | Solution     | Medium         | High          |
-|                    | Two Sum                                              | Solution     | Easy           | High          |
-|                    | Happy Number                                         | Solution     | Easy           | Low           |
-|                    | Contains Duplicate II                                | Solution     | Easy           | Medium        |
-|                    | Longest Consecutive Sequence                         | Solution     | Medium         | Medium        |
-|                    | Find the Difference of Two Arrays                    | Solution     | Easy           | Array         |
-|                    | Unique Number of Occurrences                         | Solution     | Easy           | Array         |
-|                    | Determine if Two Strings Are Close                   | Solution     | Medium         | String        |
-|                    | Equal Row and Column Pairs                           | Solution     | Medium         | Array         |
-| **Intervals**      |                                        |              |                |               |
-|                    |56  Merge Intervals                                      | Solution     | Medium         | High        |
-|                    |57 Insert Interval                                      | Solution     | Medium         | Medium        |
-|                    | Summary Ranges                                       | Solution     | Easy           | Low           |
-|                    | Minimum Number of Arrows to Burst Balloons           | Solution     | Medium         | Medium        |
-|                    |252	Meeting Rooms|Solution| 	Easy||
-|                    |253	Meeting Rooms II   |Solution| 	Medium||
-|                    |435	Non-overlapping Intervals	|Solution|Medium||
-|                    |986	Interval List Intersections	|Solution| Medium||
-|                    |2276 Count Integers in Intervals  	|Solution|Hard ||
-|                    |2345 Finding the Number of Visible Mountains	|Solution|Medium||
-| **Stack**          |                                        |              |                |               |
-|                    | Valid Parentheses                                    | Solution     | Easy           | High          |
-|                    | Simplify Path                                        | Solution     | Medium         | Medium        |
-|                    | Min Stack                                            | Solution     | Medium         | High          |
-|                    | Evaluate Reverse Polish Notation                     | Solution     | Medium         | Medium        |
-|                    | Basic Calculator                                     | Solution     | Hard           | Low           |
-|Monotonic Stack  |                                        |              |                |               |
-|                 | Daily Temperatures                                   | Solution     | Medium         | Array         |
-|                 | Online Stock Span                                    | Solution     | Medium         | Array         |
-|  Queue          |                                       |              |                |               |
-|                 | Number of Recent Calls                               | Solution     | Easy           | Array         |
-|                 | Dota2 Senate                                         | Solution     | Medium         | String        |
-| **Linked List** |                                        |              |                |               |
-||[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)||
-||[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)||
-||[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)||
-||[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)||
-||[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)||
-||[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)||
-||[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/)||
-||[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list)||
-||[Rotate List](https://leetcode.com/problems/rotate-list/description/)||
-||[Sort List](https://leetcode.com/problems/sort-list/description/)||
-||[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)||
-||[LRU Cache](https://leetcode.com/problems/lru-cache/description/)||
-||[Design Browser History](https://leetcode.com/problems/design-browser-history/description/)||
-||[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)||
-||[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)||
-||19	Remove Nth Node From End of List ||  Medium
-||23	Merge k Sorted Lists	 ||  Hard
-||24	Swap Nodes in Pairs	M ||  edium
-||25	Reverse Nodes in k-Group	 ||  Hard
-||61	Rotate List 	 ||  Medium
-||82	Remove Duplicates from Sorted List II	 ||  Medium
-||83	Remove Duplicates from Sorted List	 ||  Easy
-||86	Partition List	 ||  Medium
-||92	Reverse Linked List II	 ||  Medium
-||109	Convert Sorted List to Binary Search Tree	 ||  Medium
-||114	Flatten Binary Tree to Linked List	 ||  Medium
-||138	Copy List with Random Pointer	 ||  Medium
-||141	Linked List Cycle	 ||  Easy
-||142	Linked List Cycle II	 ||  Medium
-||148	Sort List	 ||  Medium
-||160	Intersection of Two Linked Lists ||  	Easy
-||203	Remove Linked List Elements ||  	Easy
-||234	Palindrome Linked List	 ||  Easy
-||328	Odd Even Linked List	 ||  Medium
-||341	Flatten Nested List Iterator ||  	Medium
-||426	Convert Binary Search Tree to Sorted Doubly Linked List ||   	Medium
-||430	Flatten a Multilevel Doubly Linked List ||  	Medium
-||876	Middle of the Linked List	 ||  Easy
-||1171	Remove Zero Sum Consecutive Nodes from Linked List ||   	Medium
-||1218	Longest Arithmetic Subsequence of Given Difference || 	Medium
-| **Binary Tree**    |                                        |              |                |               |
-|                    | Maximum Depth of Binary Tree                         | Solution     | Easy           | High          |
-|                    | Same Tree                                            | Solution     | Easy           | High          |
-|                    | Invert Binary Tree                                   | Solution     | Easy           | High          |
-|                    | Symmetric Tree                                       | Solution     | Easy           | High          |
-|                    | Construct Binary Tree from Preorder and Inorder      | Solution     | Medium         | Medium        |
-|                    | Construct Binary Tree from Inorder and Postorder     | Solution     | Medium         | Medium        |
-|                    | Populating Next Right Pointers in Each Node II       | Solution     | Medium         | Medium        |
-|                    | Flatten Binary Tree to Linked List                   | Solution     | Medium         | Medium        |
-|                    | Path Sum                                             | Solution     | Easy           | High          |
-|                    | Sum Root to Leaf Numbers                             | Solution     | Medium         | Medium        |
-|                    | Binary Tree Maximum Path Sum                         | Solution     | Hard           | Medium        |
-|                    | Binary Search Tree Iterator                          | Solution     | Medium         | Medium        |
-|                    | Count Complete Tree Nodes                            | Solution     | Easy           | Medium        |
-|                    | Lowest Common Ancestor of a Binary Tree              | Solution     | Medium         | Medium        |
-||[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)
-|| [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)
-||[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/description/)
-||[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/description/)
-||[Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/description/)
-||[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/description/)
-||[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/description/)
-||[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/description/)
-||[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
-||[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/)
-||[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/)
-||[Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/description/)
-||[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/description/)
-||[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)
-||[House Robber III](https://leetcode.com/problems/house-robber-iii/description/)
-||[Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/description/)
-||[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/description/)
-||[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/)
-||[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/description/)
-||[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/description/)
-||[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/description/)
-||[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)
-||[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/description/)
-||[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)
-||[Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/description/)
-| **Binary Tree BFS** |                                        |              |                |               |
-|                    | Binary Tree Right Side View                          | Solution     | Medium         | Medium        |
-|                    | Average of Levels in Binary Tree                     | Solution     | Easy           | Medium        |
-|                    | Binary Tree Level Order Traversal                    | Solution     | Medium         | High          |
-|                    | Binary Tree Zigzag Level Order Traversal             | Solution     | Medium         | Medium        |
-|                    | Maximum Level Sum of a Binary Tree                   | Solution     | Medium         | Tree          |
-| Binary Tree - DFS |                                        |              |                |               |
-|  | Maximum Depth of Binary Tree                         | Solution     | Easy           | Tree          |
-|                    | Leaf-Similar Trees                                   | Solution     | Easy           | Tree          |
-|                    | Count Good Nodes in Binary Tree                      | Solution     | Medium         | Tree          |
-|                    | Path Sum III                                         | Solution     | Medium         | Tree          |
-|                    | Longest ZigZag Path in a Binary Tree                 | Solution     | Medium         | Tree          |
-|                    | Lowest Common Ancestor of a Binary Tree              | Solution     | Medium         | Tree          |
-|**Binary Search Tree** |                                        |              |                |               |
-|                    | Minimum Absolute Difference in BST                | Solution     | Easy           | Medium        |
-|                    | Kth Smallest Element in a BST                        | Solution     | Medium         | Medium        |
-|                    | Validate Binary Search Tree                          | Solution     | Medium         | High          |
-|                    | Search in a Binary Search Tree                       | Solution     | Easy           | Tree          |
-|                    | Delete Node in a BST                                 | Solution     | Medium         | Tree          |
-| **Graph General**  |                                        |              |                |               |
-|                    | Number of Islands                                    | Solution     | Medium         | High          |
-|                    | Surrounded Regions                                   | Solution     | Medium         | Medium        |
-|                    | Clone Graph                                          | Solution     | Medium         | Medium        |
-|                    | Evaluate Division                                    | Solution     | Medium         | Medium        |
-|                    | Course Schedule                                      | Solution     | Medium         | High          |
-|                    | Course Schedule II                                   | Solution     | Medium         | High          |
-|**Graph BFS**       |                                        |              |                |               |
-|                    | Snakes and Ladders                                   | Solution     | Medium         | Medium        |
-|                    | Minimum Genetic Mutation                             | Solution     | Medium         | Low           |
-|                    | Rotting Oranges                                      | Solution     | Medium         | Graphs        |
-|                    | Word Ladder                                          | Solution     | Hard           | Medium        |
-| Graphs - DFS       |                                        |              |                |               |
-|                    | Keys and Rooms                                       | Solution     | Medium         | Graphs        |
-|                    | Number of Provinces                                  | Solution     | Medium         | Graphs        |
-|                    | Reorder Routes to Make All Paths Lead to the City Zero | Solution  | Medium         | Graphs        |
-|                    | Evaluate Division                                    | Solution     | Medium         | Graphs        |
-| **Backtracking**    |    |
-||[Permutations](https://leetcode.com/problems/permutations/description/)
-||[Subsets](https://leetcode.com/problems/subsets/description/)
-||[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)
-||[Combination Sum](https://leetcode.com/problems/combination-sum/description/)
-||[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)
-||[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)
-||[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/description/)
-||[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/description/)
-||[N-Queens II](https://leetcode.com/problems/n-queens-ii/description/)
-||[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/)
-|                          |                                        |              |                |               |
-| Graphs Min Spanning Tree |                                        |              |                |               |
-|                          |                                        |              |                |               |
-| Graphs Shortest Path     |                                        |              |                |               |
-|                          |                                        |              |                |               |
-| Graphs Topological Sort  |                                        |              |                |               |
-|                          |                                        |              |                |               |
-| Graphs Unionfind         |                                        |              |                |               |
-|                          |                                        |              |                |               |
-| Greedy                   |                                        |              |                |               |
-|                          |                                        |              |                |               |
-| Fast & Slow Pointers     |                                        |              |                |               |
-|                          |                                        |              |                |               |
-| Recursion                |                                        |              |                |               |
-| Data Stream              |                                        |              |                |               |
-|	|	1032. Stream of Characters	|	|	Easy	|	|
-|	|	1352. Product of the Last K Numbers	|	|	Easy	|	|
-|	|	1429. First Unique Number	|	|	Easy	|	|
-|	|	1472. Design Browser History	|	|	Easy	|	|
-|	|	1500. Design a File Sharing System	|	|	Easy	|	|
-|	|	1656. Design an Ordered Stream	|	|	Easy	|	|
-|	|	1670. Design Front Middle Back Queue	|	|	Easy	|	|
-|	|	170. Two Sum III - Data structure design	|	|	Easy	|	|
-|	|	1825. Finding MK Average	|	|	Easy	|	|
-|	|	2034. Stock Price Fluctuation	|	|	Easy	|	|
-|	|	2102. Sequentially Ordinal Rank Tracker	|	|	Easy	|	|
-|	|	2526. Find Consecutive Integers from a Data Stream	|	|	Easy	|	|
-|	|	295. Find Median from Data Stream	|	|	Easy	|	|
-|	|	346. Moving Average from Data Stream	|	|	Easy	|	|
-|	|	359. Logger Rate Limiter	|	|	Easy	|	|
-|	|	362. Design Hit Counter	|	|	Easy	|	|
-|	|	642. Design Search Autocomplete System	|	|	Easy	|	|
-|	|	703. Kth Largest Element in a Stream	|	|	Easy	|	|
-|	|	901. Online Stock Span	|	|	Easy	|	|
-|	|	933. Number of Recent Calls	|	|	Easy	|	|
-| Bucket Sort              |                                        |              |                |               |
-|	                         |	164. Maximum Gap	                    |	             |	Medium	|	|
-|	                         |	220. Contains Duplicate III	          |	|	Hard	|	|
-|	                         |	347. Top K Frequent Elements	        |	|	Medium	|	|
-|                          |	451. Sort Characters By Frequency	    |	|	Medium	|	|
-|	                         |	692. Top K Frequent Words	            |	|	Medium	|	|
-|	                         |	912. Sort an Array	                  |	|	Medium	|	|
-| QuickSelect              |                                        |              |                |               |	
-|                          |215. Kth Largest Element in an Array    |              |	Medium
-|                          |324. Wiggle Sort II	                    |              |	Medium
-|                          |347. Top K Frequent Elements	          |              |	Medium
-|                          |973. K Closest Points to Origin	        |              |	Medium
-|                          |1738. Find Kth Largest XOR Coordinate Value	|              |	Medium
-|                          |1985. Find the Kth Largest Integer in the Array	 |              |	Medium
-|                          |2343. Query Kth Smallest Trimmed Number	 |              |	Medium
-| Math & Geometry          |                                        |              |                |               |
-|                    | Palindrome Number                      | Solution     | Easy           | String        |
-|                    | Plus One                               | Solution     | Easy           | Array         |
-|                    | Factorial Trailing Zeroes              | Solution     | Medium         | Array         |
-|                    | Sqrt(x)                                | Solution     | Easy           | Array         |
-|                    | Pow(x, n)                              | Solution     | Medium         | Array         |
-|                    | Max Points on a Line                   | Solution     | Hard           | Array         |
-|  **Divide & Conquer**|                                        |              |                |               |
-|                    | Convert Sorted Array to Binary Search Tree           | Solution     | Easy           | Medium        |
-|                    | Sort List                                            | Solution     | Medium         | Medium        |
-|                    | Construct Quad Tree                                  | Solution     | Medium         | Low           |
-|                    | Merge k Sorted Lists                                 | Solution     | Hard           | High          |
-| **Kadane's Algorithm**|                                        |              |                |               |
-|                    | Maximum Subarray                                  | Solution     | Medium         | High          |
-|                    | Maximum Sum Circular Subarray                        | Solution     | Medium         | Medium        |
-| **Binary Search**  |                                        |              |                |               |
-|                    | Search Insert Position                               | Solution     | Easy           | High          |
-|                    | Search a 2D Matrix                                   | Solution     | Medium         | High          |
-|                    | Find Peak Element                                    | Solution     | Medium         | Medium        |
-|                    | Search in Rotated Sorted Array                       | Solution     | Medium         | High          |
-|                    | Find First and Last Position of Element in Sorted Array | Solution  | Medium         | High          |
-|                    | Find Minimum in Rotated Sorted Array                 | Solution     | Medium         | High          |
-|                    | Median of Two Sorted Arrays                          | Solution     | Hard           | High          |
-|                    | Guess Number Higher or Lower                         | Solution     | Easy           | Array         |
-|                    | Successful Pairs of Spells and Potions               | Solution     | Medium         | Array         |
-|                    | Koko Eating Bananas                                  | Solution     | Medium         | Array         |
-| **Heap / Priority Queue** |                                        |              |                |               |
-| | Kth Largest Element in an Array                | Solution     | Medium         | High          |
-|                    | IPO                                                  | Solution     | Hard           | Low           |
-|                    | Find K Pairs with Smallest Sums                      | Solution     | Medium         | Medium        |
-|                    | Find Median from Data Stream                         | Solution     | Hard           | Medium        |
-|                    | Kth Largest Element in an Array                   | Solution     | Medium         | Array         |
-|                    | Smallest Number in Infinite Set                      | Solution     | Medium         | Array         |
-|                    | Maximum Subsequence Score                            | Solution     | Medium         | Array         |
-|                    | Total Cost to Hire K Workers                         | Solution     | Medium         | Array         |
-|  **Bit Manipulation**|                                        |              |                |               |
-|                    | Add Binary                                           | Solution     | Easy           | Medium        |
-|                    | Reverse Bits                                         | Solution     | Easy           | Medium        |
-|                    | Number of 1 Bits                                     | Solution     | Easy           | Medium        |
-|                    | Single Number                                        | Solution     | Easy           | High          |
-|                    | Single Number II                                     | Solution     | Medium         | Medium        |
-|                    | Bitwise AND of Numbers Range                         | Solution     | Medium         | Low           |	
-|                    | Counting Bits  
-|                    | Missing Number  
-|                    | Sum of Two Integers  
-|                    | Reverse Integer   
-| **1D DP** |                                        |              |                |               |
-|           | Climbing Stairs                                      | Solution     | Easy           | High          |
-|                    | House Robber                                         | Solution     | Medium         | High          |
-|                    | Word Break                                           | Solution     | Medium         | High          |
-|                    | Coin Change                                          | Solution     | Medium         | Medium        |
-|                    | Longest Increasing Subsequence                       | Solution     | Medium         | Medium        |
-|  **Multidimensional DP**|                                        |              |                |               |
-| | Triangle                                         | Solution     | Medium         | Medium        |
-|                    | Minimum Path Sum                                     | Solution     | Medium         | Medium        |
-|                    | Unique Paths II                                      | Solution     | Medium         | Medium        |
-|                    | Longest Palindromic Substring                        | Solution     | Medium         | Medium        |
-|                    | Interleaving String                                  | Solution     | Medium         | Low           |
-|                    | Edit Distance                                        | Solution     | Medium         | Low           |
-|  **Matrix DP**     |                                        |              |                |               |
-|                    | Maximal Square                                       | Solution     | Medium         | Medium        |
-| Prefix Sum         |                                        |              |                |               |
-|                    | Find the Highest Altitude                            | Solution     | Easy           | Array         |
-|                    | Find Pivot Index                                     | Solution     | Easy           | Array         |
-|  **Trie**          |                                        |              |                |               |
-|  |[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)|||
-||[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)|||
-||[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)|||
-||[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/description/)|
-||[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)|
-||[Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)|
-||[Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/description/)|
-||[Replace Words](https://leetcode.com/problems/replace-words/description/)|
-||[Word Search II](https://leetcode.com/problems/word-search-ii/description/)|
-||[Stream of Characters](https://leetcode.com/problems/stream-of-characters/description/)|
+| **Category**            | **Problem**                                                | **Difficulty** | **Solution** |
+|-------------------------|------------------------------------------------------------|----------------|--------------|
+| **Linked List Operations** | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)            | Easy           | [Solution](https://leetcode.com/problems/linked-list-cycle/solutions/)            |
+|                         | [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)        | Medium         | [Solution](https://leetcode.com/problems/linked-list-cycle-ii/solutions/)         |
+|                         | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium         | [Solution](https://leetcode.com/problems/remove-nth-node-from-end-of-list/solutions/) |
+|                         | [61. Rotate List](https://leetcode.com/problems/rotate-list/)                             | Medium         | [Solution](https://leetcode.com/problems/rotate-list/solutions/)                  |
+|                         | [143. Reorder List](https://leetcode.com/problems/reorder-list/)                         | Medium         | [Solution](https://leetcode.com/problems/reorder-list/solutions/)                 |
+|                         | [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)     | Easy           | [Solution](https://leetcode.com/problems/palindrome-linked-list/solutions/)       |
+| **Cyclic Detection**     | [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium         | [Solution](https://leetcode.com/problems/find-the-duplicate-number/solutions/)    |
+|                         | [457. Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)           | Medium         | [Solution](https://leetcode.com/problems/circular-array-loop/solutions/)          |
+| **Sliding Window / Caterpillar** | [795. Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/) | Medium         | [Solution](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/solutions/) |
+|                         | [719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) | Hard           | [Solution](https://leetcode.com/problems/find-k-th-smallest-pair-distance/solutions/) |
+|                         | [1040. Moving Stones Until Consecutive II](https://leetcode.com/problems/moving-stones-until-consecutive-ii/) | Medium         | [Solution](https://leetcode.com/problems/moving-stones-until-consecutive-ii/solutions/) |
+|                         | [1719. Count Pairs of Nodes](https://leetcode.com/problems/count-pairs-of-nodes/)         | Hard           | [Solution](https://leetcode.com/problems/count-pairs-of-nodes/solutions/)         |
+|                         | [696. Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)    | Easy           | [Solution](https://leetcode.com/problems/count-binary-substrings/solutions/)      |
+|                         | [532. K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)  | Medium         | [Solution](https://leetcode.com/problems/k-diff-pairs-in-an-array/solutions/)     |
+| **Rotation**             | [1861. Rotating the Box](https://leetcode.com/problems/rotating-the-box/)                | Medium         | [Solution](https://leetcode.com/problems/rotating-the-box/solutions/)             |
+|                         | [189. Rotate Array](https://leetcode.com/problems/rotate-array/)                          | Medium         | [Solution](https://leetcode.com/problems/rotate-array/solutions/)                 |
+| **String**               | [443. String Compression](https://leetcode.com/problems/string-compression/)             | Medium         | [Solution](https://leetcode.com/problems/string-compression/solutions/)           |
+|                         | [1163. Last Substring in Lexicographical Order](https://leetcode.com/problems/last-substring-in-lexicographical-order/) | Hard           | [Solution](https://leetcode.com/problems/last-substring-in-lexicographical-order/solutions/) |
+| **Remove Duplicates**    | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy           | [Solution](https://leetcode.com/problems/remove-duplicates-from-sorted-array/solutions/) |
+|                         | [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | Medium         | [Solution](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/solutions/) |
+|                         | [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | Medium         | [Solution](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/solutions/) |
+|                         | [1089. Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)                   | Easy           | [Solution](https://leetcode.com/problems/duplicate-zeros/solutions/)              |
+| **Others**               | [1093. Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/) | Hard           | [Solution](https://leetcode.com/problems/statistics-from-a-large-sample/solutions/) |
+|                         | [763. Partition Labels](https://leetcode.com/problems/partition-labels/)                  | Medium         | [Solution](https://leetcode.com/problems/partition-labels/solutions/)             |
+|                         | [481. Magical String](https://leetcode.com/problems/magical-string/)                      | Medium         | [Solution](https://leetcode.com/problems/magical-string/solutions/)               |
+|                         | [825. Friends of Appropriate Ages](https://leetcode.com/problems/friends-of-appropriate-ages/) | Medium         | [Solution](https://leetcode.com/problems/friends-of-appropriate-ages/solutions/)  |
+|                         | [845. Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/) | Medium         | [Solution](https://leetcode.com/problems/longest-mountain-in-array/solutions/)    |
+|                         | [1574. Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/) | Medium         | [Solution](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/solutions/) |
+
+
+## Graph
+
+| **Category**                    | **Problem**                                  | **Difficulty** | **Solution Link** |
+|----------------------------------|----------------------------------------------|----------------|-------------------|
+| **Breadth-First Search (BFS)**   | [752. Open the Lock](https://leetcode.com/problems/open-the-lock) | Medium | [Solution]() |
+|                                  | [542. 01 Matrix](https://leetcode.com/problems/01-matrix) | Medium | [Solution]() |
+|                                  | [1162. As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible) | Medium | [Solution]() |
+|                                  | [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges) | Medium | [Solution]() |
+|                                  | [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix) | Medium | [Solution]() |
+|                                  | [909. Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders) | Medium | [Solution]() |
+|                                  | [127. Word Ladder](https://leetcode.com/problems/word-ladder) | Hard | [Solution]() |
+| **Depth-First Search (DFS)**     | [1376. Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees) | Medium | [Solution]() |
+|                                  | [1020. Number of Enclaves](https://leetcode.com/problems/number-of-enclaves) | Medium | [Solution]() |
+|                                  | [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions) | Medium | [Solution]() |
+|                                  | [1254. Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands) | Medium | [Solution]() |
+|                                  | [200. Number of Islands](https://leetcode.com/problems/number-of-islands) | Medium | [Solution]() |
+|                                  | [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms) | Medium | [Solution]() |
+|                                  | [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island) | Medium | [Solution]() |
+|                                  | [733. Flood Fill](https://leetcode.com/problems/flood-fill) | Easy | [Solution]() |
+|                                  | [1034. Coloring A Border](https://leetcode.com/problems/coloring-a-border) | Medium | [Solution]() |
+|                                  | [690. Employee Importance](https://leetcode.com/problems/employee-importance) | Medium | [Solution]() |
+|                                  | [997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge) | Easy | [Solution]() |
+|                                  | [802. Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states) | Medium | [Solution]() |
+|                                  | [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow) | Medium | [Solution]() |
+|                                  | [1470. Shuffle the Array](https://leetcode.com/problems/shuffle-the-array) | Easy | [Solution]() |
+|                                  | [399. Evaluate Division](https://leetcode.com/problems/evaluate-division) | Medium | [Solution]() |
+|                                  | [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) | Hard | [Solution]() |
+|                                  | [332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary) | Medium | [Solution]() |
+|                                  | [139. Word Break II](https://leetcode.com/problems/word-break-ii) | Medium | [Solution]() |
+|                                  | [79. Word Search](https://leetcode.com/problems/word-search) | Medium | [Solution]() |
+| **Topological Sort**             | [207. Course Schedule](https://leetcode.com/problems/course-schedule) | Medium | [Solution]() |
+|                                  | [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | Medium | [Solution]() |
+|                                  | [444. Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction) | Hard | [Solution]() |
+|                                  | [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary) | Hard | [Solution]() |
+|                                  | [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees) | Medium | [Solution]() |
+|                                  | [1136. Parallel Courses](https://leetcode.com/problems/parallel-courses) | Medium | [Solution]() |
+| **Union-Find (Disjoint Set)**    | [547. Friend Circles](https://leetcode.com/problems/friend-circles) | Medium | [Solution]() |
+|                                  | [684. Redundant Connection](https://leetcode.com/problems/redundant-connection) | Medium | [Solution]() |
+|                                  | [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column) | Medium | [Solution]() |
+|                                  | [1319. Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected) | Medium | [Solution]() |
+|                                  | [990. Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations) | Medium | [Solution]() |
+|                                  | [721. Accounts Merge](https://leetcode.com/problems/accounts-merge) | Medium | [Solution]() |
+|                                  | [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph) | Medium | [Solution]() |
+|                                  | [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree) | Medium | [Solution]() |
+|                                  | [1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful) | Medium | [Solution]() |
+|                                  | [1519. The Earliest Moment When Everyone Becomes Friends](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends) | Medium | [Solution]() |
+|                                  | [1168. Optimize Water Distribution in a Village](https://leetcode.com/problems/optimize-water-distribution-in-a-village) | Hard | [Solution]() |
+|                                  | [1135. Connecting Cities With Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost) | Hard | [Solution]() |
+|                                  | [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network) | Hard | [Solution]() |
+|                                  | [1137. Bridges in a Graph](https://leetcode.com/problems/bridges-in-a-graph) | Hard | [Solution]() |
+|                                  | [877. Number of Provinces](https://leetcode.com/problems/number-of-provinces) | Medium | [Solution]() |
+| **Graph Coloring**               | [886. Possible Bipartition](https://leetcode.com/problems/possible-bipartition) | Medium | [Solution]() |
+|                                  | [785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite) | Medium | [Solution]() |
+| **Connected Components**         | [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces) | Medium | [Solution]() |
+|                                  | [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph) | Medium | [Solution]() |
+|                                  | [1319. Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected) | Medium | [Solution]() |
+|                                  | [721. Accounts Merge](https://leetcode.com/problems/accounts-merge) | Medium | [Solution]() |
+|                                  | [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network) | Hard | [Solution]() |
+| **MST Problems**                 | [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) | Hard | [Solution]() |
+|                                  | [1168. Optimize Water Distribution in a Village](https://leetcode.com/problems/optimize-water-distribution-in-a-village) | Hard | [Solution]() |
+|                                  | [1135. Connecting Cities With Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost) | Hard | [Solution]() |
+|                                  | [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points) | Medium | [Solution]() |
+| **Single Source Shortest Paths** | [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) | Medium | [Solution]() |
+|                                  | [743. Network Delay Time](https://leetcode.com/problems/network-delay-time) | Medium | [Solution]() |
+|                                  | [1514. Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination) | Medium | [Solution]() |
+|                                  | [778. Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water) | Hard | [Solution]()
+
+## Greedy 
+
+| **Category**              | **Problem**                              | **Difficulty** | **Solution Link**                                                   |
+|---------------------------|------------------------------------------|----------------|---------------------------------------------------------------------|
+| **Greedy**                | 45. [Jump Game II](https://leetcode.com/problems/jump-game-ii)                         | Medium         | [Solution](https://leetcode.com/problems/jump-game-ii)              |
+|                           | 55. [Jump Game](https://leetcode.com/problems/jump-game)                            | Medium         | [Solution](https://leetcode.com/problems/jump-game)                 |
+|                           | 134. [Gas Station](https://leetcode.com/problems/gas-station)                         | Medium         | [Solution](https://leetcode.com/problems/gas-station)               |
+|                           | 135. [Candy](https://leetcode.com/problems/candy)                               | Hard           | [Solution](https://leetcode.com/problems/candy)                     |
+|                           | 316. [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters)            | Medium         | [Solution](https://leetcode.com/problems/remove-duplicate-letters)  |
+|                           | 402. [Remove K Digits](https://leetcode.com/problems/remove-k-digits)                     | Medium         | [Solution](https://leetcode.com/problems/remove-k-digits)           |
+|                           | 406. [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height)      | Medium         | [Solution](https://leetcode.com/problems/queue-reconstruction-by-height) |
+|                           | 410. [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum)             | Hard           | [Solution](https://leetcode.com/problems/split-array-largest-sum)   |
+|                           | 455. [Assign Cookies](https://leetcode.com/problems/assign-cookies)                      | Easy           | [Solution](https://leetcode.com/problems/assign-cookies)            |
+|                           | 621. [Task Scheduler](https://leetcode.com/problems/task-scheduler)                      | Medium         | [Solution](https://leetcode.com/problems/task-scheduler)            |
+|                           | 763. [Partition Labels](https://leetcode.com/problems/partition-labels)                    | Medium         | [Solution](https://leetcode.com/problems/partition-labels)          |
+|                           | 767. [Reorganize String](https://leetcode.com/problems/reorganize-string)                   | Medium         | [Solution](https://leetcode.com/problems/reorganize-string)         |
+|                           | 881. [Boats to Save People](https://leetcode.com/problems/boats-to-save-people)                | Medium         | [Solution](https://leetcode.com/problems/boats-to-save-people)      |
+|                           | 921. [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid) | Medium        | [Solution](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid) |
+|                           | 948. [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens)                       | Medium         | [Solution](https://leetcode.com/problems/bag-of-tokens)             |
+|                           | 984. [String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb)           | Medium         | [Solution](https://leetcode.com/problems/string-without-aaa-or-bbb) |
+|                           | 1046. [Last Stone Weight](https://leetcode.com/problems/last-stone-weight)                  | Easy           | [Solution](https://leetcode.com/problems/last-stone-weight)         |
+|                           | 1094. [Car Pooling](https://leetcode.com/problems/car-pooling)                        | Medium         | [Solution](https://leetcode.com/problems/car-pooling)               |
+|                           | 1282. [Group the People Given the Group Size](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to) | Medium       | [Solution](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to) |
+|                           | 1296. [Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers) | Medium  | [Solution](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers) |
+|                           | 1400. [Construct K Palindrome Strings](https://leetcode.com/problems/construct-k-palindrome-strings)     | Medium         | [Solution](https://leetcode.com/problems/construct-k-palindrome-strings) |
+|                           | 1833. [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars)             | Medium         | [Solution](https://leetcode.com/problems/maximum-ice-cream-bars)    |
+|                           | 2279. [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks) | Medium     | [Solution](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks) |
+|                           | 2405. [Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string)        | Medium         | [Solution](https://leetcode.com/problems/optimal-partition-of-string) |
+|                           | 2410. [Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers) | Medium     | [Solution](https://leetcode.com/problems/maximum-matching-of-players-with-trainers) |
+|                           | 2439. [Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array)          | Medium         | [Solution](https://leetcode.com/problems/minimize-maximum-of-array) |
+|                           | 2541. [Minimum Operations to Make Array Equal II](https://leetcode.com/problems/minimum-operations-to-make-array-equal-ii) | Medium     | [Solution](https://leetcode.com/problems/minimum-operations-to-make-array-equal-ii) |
+|                           | 2567. [Minimum Score by Changing Two Elements](https://leetcode.com/problems/minimum-score-by-changing-two-elements) | Medium      | [Solution](https://leetcode.com/problems/minimum-score-by-changing-two-elements) |
+|                           | 2611. [Mice and Cheese](https://leetcode.com/problems/mice-and-cheese)                    | Medium         | [Solution](https://leetcode.com/problems/mice-and-cheese)           |
+
+## Tree
+
+| **Category**                   | **Problem**                                                                                              | **Solution** | **Difficulty** | **Frequency** |
+|--------------------------------|----------------------------------------------------------------------------------------------------------|--------------|----------------|---------------|
+|Trees                           ||||
+| **Tree Traversals**            | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)      | Solution     | Medium         | High          |
+|                                | [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)    | Solution     | Medium         | High          |
+|                                | [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)  | Solution     | Medium         | High          |
+| **Inorder Traversal**          | [897. Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)          | Solution     | Medium         | Medium        |
+|                                | [538. Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | Solution | Medium         | Medium        |
+|                                | [1305. All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) | Solution | Medium         | Medium        |
+|                                | [1038. Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)         | Solution     | Medium         | Medium        |
+| **Binary Search Tree (BST)**   | [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)    | Solution     | Medium         | High          |
+|                                | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)          | Solution     | Medium         | High          |
+|                                | [501. Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)  | Solution     | Medium         | Medium        |
+|                                | [653. Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)          | Solution     | Medium         | Medium        |
+|                                | [897. Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)        | Solution     | Medium         | Medium        |
+|                                | [538. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)                                | Solution     | Medium         | Medium        |
+|                                | [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | Solution | Medium         | Medium        |
+|                                | [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | Solution | Medium         | Medium        |
+|                                | [426. BST to Sorted DLL](https://leetcode.com/problems/bst-to-sorted-dll/)                              | Premium      | Medium         | Medium        |
+|                                | [285. Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/)               | Premium      | Medium         | Medium        |
+|                                | [530. Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) | Solution | Medium         | Medium        |
+|                                | [1305. All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) | Solution | Medium         | Medium        |
+|                                | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)    | Solution     | Medium         | Medium        |
+|                                | [669. Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)             | Solution     | Medium         | Medium        |
+|                                | [1008. Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | Solution | Medium         | Medium        |
+|                                | [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)            | Solution     | Medium         | Medium        |
+|                                | [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)                      | Solution     | Medium         | Medium        |
+|                                | [701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | Solution  | Medium         | Medium        |
+|                                | [998. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)           | Solution     | Medium         | Medium        |
+|                                | [783. Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | Solution | Medium         | Medium        |
+| **Depth/Height Based**         | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)      | Solution     | Medium         | Medium        |
+|                                | [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)      | Solution     | Medium         | Medium        |
+|                                | [559. Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)       | Solution     | Medium         | Medium        |
+|                                | [530. Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) | Solution | Medium         | Medium        |
+| **Path-Based**                 | [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)                     | Solution     | Medium         | Medium        |
+|                                | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)      | Solution     | Medium         | Medium        |
+|                                | [1022. Sum of Root to Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | Solution | Medium         | Medium        |
+|                                | [257. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)               | Solution     | Medium         | Medium        |
+|                                | [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)                             | Solution     | Medium         | Medium        |
+|                                | [988. Smallest String Starting from Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | Solution | Medium         | Medium        |
+|                                | [112. Path Sum](https://leetcode.com/problems/path-sum/)                                             | Solution     | Medium         | Medium        |
+|                                | [979. Insufficient Nodes in Root to Leaf Paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/) | Solution | Medium         | Medium        |
+|                                | [1443. Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) | Solution | Medium         | Medium        |
+| **Tree Leaves**                | [404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)                          | Solution     | Medium         | Medium        |
+|                                | [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)                          | Solution     | Medium         | Medium        |
+|                                | [1301. Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)                        | Solution     | Medium         | Medium        |
+|                                | [1325. Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/) | Solution | Medium         | Medium        |
+| **Lowest Common Ancestor (LCA)**| [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Solution | Medium | Medium        |
+|                                | [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Solution | Medium | Medium        |
+|                                | [1650. Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/) | Solution | Medium | Medium        |
+|                                | [1648. Kth Ancestor of a Tree Node](https://leetcode.com/problems/kth-ancestor-of-a-tree-node/)   | Solution     | Medium         | Medium        |
+|                                | [1026. Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | Solution | Medium | Medium        |
+| **Serialize and Deserialize**  | [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Solution | Medium | Medium        |
+|                                | [331. Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) | Solution | Medium | Medium        |
+|                                |- [449. Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)|Solution|Medium||
+| **Level Order Traversal**     | [865. Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/) | Solution     | Medium         | Medium        |
+|                               | [983. Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/) | Solution     | Medium         | Medium        |
+|                               | [637. Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | Solution     | Medium         | Medium        |
+|                               | [812. Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/) | Solution     | Medium         | Medium        |
+|                               | [1600. Frog Position After T Seconds](https://leetcode.com/problems/frog-position-after-t-seconds/)          | Solution     | Medium         | Medium        |
+|                               | [1609. Even Odd Tree](https://leetcode.com/problems/even-odd-tree/)                                         | Solution     | Medium         | Medium        |
+|                               | [107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | Solution     | Medium         | Medium        |
+|                               | [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)              | Solution     | Medium         | Medium        |
+|                               | [515. Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | Solution   | Medium         | Medium        |
+|                               | [662. Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)            | Solution     | Medium         | Medium        |
+|                               | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)  | ✅ BFS/DFS   | Medium         | Medium        |
+|                               | [107. Binary Tree Bottom-up Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | Solution   | Medium         | Medium        |
+|                               | [429. N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)    | Solution     | Medium         | Medium        |
+|                               | [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)   | Solution     | Medium         | Medium        |
+|                               | [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | Solution | Medium         | Medium        |
+|                               | [623. Add One Row at a Given Level in a Binary Tree](https://leetcode.com/problems/add-one-row-to-tree/)   | Solution     | Medium         | Medium        |
+|                               | [515. Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)  | ✏️           | Medium         | Medium        |
+|                               | [2470. Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/) | ✏️ CyclicSort + BFS | Medium         | Medium        |
+| **Tree Construction**         | [105. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | Solution     | Medium         | Medium        |
+|                               | [1008. Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | Solution     | Medium         | Medium        |
+|                               | [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | D&C          | Medium         | Medium        |
+|                               | [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | D&C          | Medium         | Medium        |
+|                               | [606. Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)  | Solution     | Medium         | Medium        |
+|                               | [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | Solution     | Medium         | Medium        |
+|                               | [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | Solution     | Medium         | Medium        |
+|                               | [1028. Recover a Tree from Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/) | Solution | Medium         | Medium        |
+|                               | [654. Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)                             | D&C Monotonic Stack | Medium | Medium        |
+|                               | [894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/)       | Solution     | Medium         | Medium        |
+|                               | [951. Number of Ways to Reconstruct a Tree](https://leetcode.com/problems/number-of-ways-to-reconstruct-a-tree/) | Solution | Medium         | Medium        |
+|                               | [1233. Merge BSTs to Create Single BST](https://leetcode.com/problems/merge-bsts-to-create-single-bst/)    | Solution     | Medium         | Medium        |
+|                               | [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)          | Solution     | Medium         | Medium        |
+| **Check Binary Tree**| [100. Same Tree](https://leetcode.com/problems/same-tree/)                                                | Solution     | Easy           | High          |
+|                     | [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)                                            | Solution     | Easy           | Medium        |
+|                     | [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)                                    | Solution     | Easy           | Medium        |
+|                     | [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)                          | Solution     | Medium         | Medium        |
+|                     | [958. Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)        | Solution     | Medium         | Medium        |
+|                     | [965. Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)                             | Solution     | Easy           | Medium        |
+| **Counting**       | [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)                             | Solution     | Medium         | Medium        |
+|                    | [951. Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)              | Solution     | Medium         | Medium        |
+|                    | [250. Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/)                               | Solution     | Medium         | Low           |
+|                    | [1448. Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)                       | Solution     | Medium         | Medium        |
+|                    | [1970. Number of Nodes in the Subtree with the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)   | Solution     | Medium         | Medium        |
+|                    | [2530. Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)                       | Solution     | Medium         | Medium        |
+|                    | [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)                            | Solution     | Medium         | High          |
+| **Distance Between Two Nodes** | [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)       | Solution     | Medium         | Medium        |
+|                       | [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)                               | Solution     | Medium         | Medium        |
+|                       | [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)                           | Solution     | Medium         | Medium        |
+|                       | [238. Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)      | Solution     | Medium         | Medium        |
+| **DP**        | [337. House Robber III](https://leetcode.com/problems/house-robber-iii/)                               | Solution     | Medium         | Medium        |
+|                | [894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/)                 | Solution     | Medium         | Medium        |
+|                | [968. Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)                            | Solution     | Medium         | Medium        |
+| **Miscellaneous**| [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)                 | Solution     | Medium         | Medium        |
+|                  | [102. Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)                    | Solution     | Medium         | Medium        |
+|                  | [1172. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)     | Solution     | Medium         | Medium        |
+|                  | [987. Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)          | Solution     | Medium         | Medium        |
+|                  | [703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)                     | Solution     | Medium         | Medium        |
+|                  | [993. Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)                              | Solution     | Easy           | Medium        |
+|                  | [951. Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/)                        | Solution     | Medium         | Medium        |
+|                  | [951. Flip Binary Tree to Match Preorder Traversal](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/)       | Solution     | Medium         | Medium        |
+|                  | [1080. Delete Nodes and Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/)                      | Solution     | Medium         | Medium        |
+|                  | [1361. Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/)                          | Solution     | Medium         | Medium        |
+|                  | [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                                | Solution     | Easy           | Medium        |
+|                  | [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)                              | Solution     | Easy           | Medium        |
+|                  | [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)                            | Solution     | Medium         | Medium        |
+|                  | [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                                  | Solution     | Easy           | High          |
+
+--- 
 
 ## 📌 Fundamental Concepts
 - [Algorithmic Complexity](https://blog.algomaster.io/p/57bd4963-462f-4294-a972-4012691fc729)
