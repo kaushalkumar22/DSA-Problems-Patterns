@@ -3,25 +3,27 @@
 ---
 
 ## Backtracking
+
 | **Category** | **Problem** | **Difficulty** | **Solution** |
 |--------------|-------------|----------------|--------------|
-| **Backtracking** | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | Medium | [Solution](https://leetcode.com/problems/letter-combinations-of-a-phone-number/solutions/) |
-|  | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) | Medium | [Solution](https://leetcode.com/problems/generate-parentheses/solutions/) |
-|  | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | Hard | [Solution](https://leetcode.com/problems/sudoku-solver/solutions/) |
+| **Backtracking**  | [Combinations](https://leetcode.com/problems/combinations) | Medium | [Solution](https://leetcode.com/problems/combinations/solutions/) |
 |  | [Combination Sum](https://leetcode.com/problems/combination-sum) | Medium | [Solution](https://leetcode.com/problems/combination-sum/solutions/) |
 |  | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) | Medium | [Solution](https://leetcode.com/problems/combination-sum-ii/solutions/) |
 |  | [Permutations](https://leetcode.com/problems/permutations) | Medium | [Solution](https://leetcode.com/problems/permutations/solutions/) |
 |  | [Permutations II](https://leetcode.com/problems/permutations-ii) | Medium | [Solution](https://leetcode.com/problems/permutations-ii/solutions/) |
-|  | [N-Queens](https://leetcode.com/problems/n-queens) | Hard | [Solution](https://leetcode.com/problems/n-queens/solutions/) |
 |  | [Subsets](https://leetcode.com/problems/subsets) | Medium | [Solution](https://leetcode.com/problems/subsets/solutions/) |
 |  | [Subsets II](https://leetcode.com/problems/subsets-ii) | Medium | [Solution](https://leetcode.com/problems/subsets-ii/solutions/) |
+|  | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) | Medium | [Solution](https://leetcode.com/problems/generate-parentheses/solutions/) |
+|  | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | Medium | [Solution]() |
+|  | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) | Medium | [Solution](https://leetcode.com/problems/palindrome-partitioning/solutions/) |
+|  | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation) | Medium | [Solution](https://leetcode.com/problems/letter-case-permutation/solutions/) |
+|  | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target) | Medium | [Solution](https://leetcode.com/problems/all-paths-from-source-to-target/solutions/) 
+|  | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | Hard | [Solution](https://leetcode.com/problems/sudoku-solver/solutions/) |
+|  | [N-Queens](https://leetcode.com/problems/n-queens) | Hard | [Solution](https://leetcode.com/problems/n-queens/solutions/) |
 |  | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses) | Medium | [Solution](https://leetcode.com/problems/restore-ip-addresses/solutions/) |
 |  | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii) | Medium | [Solution](https://leetcode.com/problems/unique-binary-search-trees-ii/solutions/) |
-|  | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) | Medium | [Solution](https://leetcode.com/problems/palindrome-partitioning/solutions/) |
 |  | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string) | Medium | [Solution](https://leetcode.com/problems/valid-parenthesis-string/solutions/) |
 |  | [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) | Medium | [Solution](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/solutions/) |
-|  | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation) | Medium | [Solution](https://leetcode.com/problems/letter-case-permutation/solutions/) |
-|  | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target) | Medium | [Solution](https://leetcode.com/problems/all-paths-from-source-to-target/solutions/) |
 
 ---
 
