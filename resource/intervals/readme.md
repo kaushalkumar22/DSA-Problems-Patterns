@@ -32,7 +32,7 @@
 30. [1943. Describe the Painting](https://leetcode.com/problems/describe-the-painting/) - Medium
 31. [1589. Maximum Sum Obtained of Any Permutation](https://leetcode.com/problems/maximum-sum-obtained-of-any-permutation/) - Medium
 
-String[] intervalProblems = {
+    String[] intervalProblems = {
     // Merge Intervals and Related Operations
     "merge-intervals.md",                          // 56
     "insert-interval.md",                          // 57
