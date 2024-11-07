@@ -31,3 +31,52 @@
 29. [1326. Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/) - Hard
 30. [1943. Describe the Painting](https://leetcode.com/problems/describe-the-painting/) - Medium
 31. [1589. Maximum Sum Obtained of Any Permutation](https://leetcode.com/problems/maximum-sum-obtained-of-any-permutation/) - Medium
+
+String[] intervalProblems = {
+    // Merge Intervals and Related Operations
+    "merge-intervals.md",                          // 56
+    "insert-interval.md",                          // 57
+    "remove-covered-intervals.md",                 // 1288
+    "maximum-number-of-events-that-can-be-attended.md", // 1353
+    "minimum-moves-to-make-array-complementary.md",    // 1674
+    "minimum-interval-to-include-each-query.md",   // 1851
+    "maximum-population-year.md",                  // 1854
+    "describe-the-painting.md",                    // 1943
+    "amount-of-new-area-painted-each-day.md",      // 2158
+    
+    // Advanced Interval and Event Counting Problems
+    "the-skyline-problem.md",                      // 218
+    "number-of-flowers-in-full-bloom.md",          // 2251
+    "count-integers-in-intervals.md",              // 2276
+    
+    // Meeting Rooms Problems
+    "meeting-rooms.md",                            // 252
+    "meeting-rooms-ii.md",                         // 259
+    
+    // Range Addition and Rectangle Problems
+    "range-addition.md",                           // 370
+    "perfect-rectangle.md",                        // 391
+    
+    // Non-Overlapping and Optimization Problems
+    "non-overlapping-intervals.md",                // 435
+    "minimum-number-of-arrows-to-burst-balloons.md", // 452
+    "maximum-length-of-pair-chain.md",             // 646
+    
+    // Employee Free Time and My Calendar Series
+    "employee-free-time.md",                       // 759
+    "my-calendar-iii.md",                          // 732
+    "my-calendar-ii.md",                           // 731
+    
+    // Interval List and Range Coverage Problems
+    "interval-list-intersections.md",              // 986
+    "remove-covered-intervals.md",                 // 1288 (Duplicate listed for emphasis)
+    "check-if-all-integers-in-range-covered.md",   // 1893
+    
+    // Additional Interval and Area Calculation Problems
+    "finding-the-number-of-visible-mountains.md",  // 2345
+    "rectangle-area-ii.md",                        // 850
+    "range-addition.md",                           // 370 (Duplicate listed for emphasis)
+    "minimum-number-of-taps-to-open-water-garden.md", // 1326
+    "describe-the-painting.md",                    // 1943 (Duplicate for emphasis)
+    "maximum-sum-obtained-of-any-permutation.md"   // 1589
+};
