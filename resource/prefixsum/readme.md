@@ -44,9 +44,9 @@ This means that the subarray from index `j` to `i` has a sum of K, which is exac
 
 ## Section 1 : Standard prefix sum problems.
 
-[303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
-[560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
-[1310. XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/)
+- [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
+- [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+- [1310. XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/)
 
 Just follow the above template step by step.
 
