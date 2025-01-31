@@ -142,20 +142,15 @@
 |                                  | [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix) | Medium | [Solution]() |
 |                                  | [909. Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders) | Medium | [Solution]() |
 |                                  | [127. Word Ladder](https://leetcode.com/problems/word-ladder) | Hard | [Solution]() |
-| **Depth-First Search (DFS)**     | [1376. Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees) | Medium | [Solution]() |
-|                                  | [1020. Number of Enclaves](https://leetcode.com/problems/number-of-enclaves) | Medium | [Solution]() |
+| **Depth-First Search (DFS)**     | [1020. Number of Enclaves](https://leetcode.com/problems/number-of-enclaves) | Medium | [Solution]() |
 |                                  | [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions) | Medium | [Solution]() |
 |                                  | [1254. Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands) | Medium | [Solution]() |
 |                                  | [200. Number of Islands](https://leetcode.com/problems/number-of-islands) | Medium | [Solution]() |
 |                                  | [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms) | Medium | [Solution]() |
 |                                  | [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island) | Medium | [Solution]() |
 |                                  | [733. Flood Fill](https://leetcode.com/problems/flood-fill) | Easy | [Solution]() |
-|                                  | [1034. Coloring A Border](https://leetcode.com/problems/coloring-a-border) | Medium | [Solution]() |
-|                                  | [690. Employee Importance](https://leetcode.com/problems/employee-importance) | Medium | [Solution]() |
-|                                  | [997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge) | Easy | [Solution]() |
 |                                  | [802. Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states) | Medium | [Solution]() |
 |                                  | [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow) | Medium | [Solution]() |
-|                                  | [1470. Shuffle the Array](https://leetcode.com/problems/shuffle-the-array) | Easy | [Solution]() |
 |                                  | [399. Evaluate Division](https://leetcode.com/problems/evaluate-division) | Medium | [Solution]() |
 |                                  | [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) | Hard | [Solution]() |
 |                                  | [332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary) | Medium | [Solution]() |
@@ -163,20 +158,16 @@
 |                                  | [79. Word Search](https://leetcode.com/problems/word-search) | Medium | [Solution]() |
 | **Topological Sort**             | [207. Course Schedule](https://leetcode.com/problems/course-schedule) | Medium | [Solution]() |
 |                                  | [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | Medium | [Solution]() |
-|                                  | [444. Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction) | Hard | [Solution]() |
 |                                  | [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary) | Hard | [Solution]() |
 |                                  | [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees) | Medium | [Solution]() |
-|                                  | [1136. Parallel Courses](https://leetcode.com/problems/parallel-courses) | Medium | [Solution]() |
 | **Union-Find (Disjoint Set)**    | [547. Friend Circles](https://leetcode.com/problems/friend-circles) | Medium | [Solution]() |
 |                                  | [684. Redundant Connection](https://leetcode.com/problems/redundant-connection) | Medium | [Solution]() |
-|                                  | [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column) | Medium | [Solution]() |
 |                                  | [1319. Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected) | Medium | [Solution]() |
 |                                  | [990. Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations) | Medium | [Solution]() |
 |                                  | [721. Accounts Merge](https://leetcode.com/problems/accounts-merge) | Medium | [Solution]() |
 |                                  | [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph) | Medium | [Solution]() |
 |                                  | [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree) | Medium | [Solution]() |
 |                                  | [1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful) | Medium | [Solution]() |
-|                                  | [1519. The Earliest Moment When Everyone Becomes Friends](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends) | Medium | [Solution]() |
 |                                  | [1168. Optimize Water Distribution in a Village](https://leetcode.com/problems/optimize-water-distribution-in-a-village) | Hard | [Solution]() |
 |                                  | [1135. Connecting Cities With Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost) | Hard | [Solution]() |
 |                                  | [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network) | Hard | [Solution]() |
@@ -187,7 +178,6 @@
 | **Connected Components**         | [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces) | Medium | [Solution]() |
 |                                  | [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph) | Medium | [Solution]() |
 |                                  | [1319. Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected) | Medium | [Solution]() |
-|                                  | [721. Accounts Merge](https://leetcode.com/problems/accounts-merge) | Medium | [Solution]() |
 |                                  | [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network) | Hard | [Solution]() |
 | **MST Problems**                 | [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) | Hard | [Solution]() |
 |                                  | [1168. Optimize Water Distribution in a Village](https://leetcode.com/problems/optimize-water-distribution-in-a-village) | Hard | [Solution]() |
@@ -195,7 +185,6 @@
 |                                  | [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points) | Medium | [Solution]() |
 | **Single Source Shortest Paths** | [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) | Medium | [Solution]() |
 |                                  | [743. Network Delay Time](https://leetcode.com/problems/network-delay-time) | Medium | [Solution]() |
-|                                  | [1514. Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination) | Medium | [Solution]() |
 |                                  | [778. Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water) | Hard | [Solution]()
 
 ## Greedy 
@@ -208,7 +197,6 @@
 |                           | 135. [Candy](https://leetcode.com/problems/candy)                               | Hard           | [Solution](https://leetcode.com/problems/candy)                     |
 |                           | 316. [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters)            | Medium         | [Solution](https://leetcode.com/problems/remove-duplicate-letters)  |
 |                           | 402. [Remove K Digits](https://leetcode.com/problems/remove-k-digits)                     | Medium         | [Solution](https://leetcode.com/problems/remove-k-digits)           |
-|                           | 406. [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height)      | Medium         | [Solution](https://leetcode.com/problems/queue-reconstruction-by-height) |
 |                           | 410. [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum)             | Hard           | [Solution](https://leetcode.com/problems/split-array-largest-sum)   |
 |                           | 455. [Assign Cookies](https://leetcode.com/problems/assign-cookies)                      | Easy           | [Solution](https://leetcode.com/problems/assign-cookies)            |
 |                           | 621. [Task Scheduler](https://leetcode.com/problems/task-scheduler)                      | Medium         | [Solution](https://leetcode.com/problems/task-scheduler)            |
@@ -220,15 +208,10 @@
 |                           | 984. [String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb)           | Medium         | [Solution](https://leetcode.com/problems/string-without-aaa-or-bbb) |
 |                           | 1046. [Last Stone Weight](https://leetcode.com/problems/last-stone-weight)                  | Easy           | [Solution](https://leetcode.com/problems/last-stone-weight)         |
 |                           | 1094. [Car Pooling](https://leetcode.com/problems/car-pooling)                        | Medium         | [Solution](https://leetcode.com/problems/car-pooling)               |
-|                           | 1282. [Group the People Given the Group Size](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to) | Medium       | [Solution](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to) |
 |                           | 1296. [Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers) | Medium  | [Solution](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers) |
 |                           | 1400. [Construct K Palindrome Strings](https://leetcode.com/problems/construct-k-palindrome-strings)     | Medium         | [Solution](https://leetcode.com/problems/construct-k-palindrome-strings) |
-|                           | 1833. [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars)             | Medium         | [Solution](https://leetcode.com/problems/maximum-ice-cream-bars)    |
-|                           | 2279. [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks) | Medium     | [Solution](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks) |
 |                           | 2405. [Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string)        | Medium         | [Solution](https://leetcode.com/problems/optimal-partition-of-string) |
 |                           | 2410. [Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers) | Medium     | [Solution](https://leetcode.com/problems/maximum-matching-of-players-with-trainers) |
-|                           | 2439. [Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array)          | Medium         | [Solution](https://leetcode.com/problems/minimize-maximum-of-array) |
-|                           | 2541. [Minimum Operations to Make Array Equal II](https://leetcode.com/problems/minimum-operations-to-make-array-equal-ii) | Medium     | [Solution](https://leetcode.com/problems/minimum-operations-to-make-array-equal-ii) |
 |                           | 2567. [Minimum Score by Changing Two Elements](https://leetcode.com/problems/minimum-score-by-changing-two-elements) | Medium      | [Solution](https://leetcode.com/problems/minimum-score-by-changing-two-elements) |
 |                           | 2611. [Mice and Cheese](https://leetcode.com/problems/mice-and-cheese)                    | Medium         | [Solution](https://leetcode.com/problems/mice-and-cheese)           |
 
