@@ -14,17 +14,12 @@ One pointer starts from beginning and other from the end and then both are movin
 - [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
 - [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
-- [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)
 - [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
 - [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)
 - [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)
-- [821. Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)
 - [832. Flipping an Image](https://leetcode.com/problems/flipping-an-image/)
 - [881. Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)
 - [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
-- [1498. Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
-- [1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number](https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)
-- [1877. Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/)
 - [2000. Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)
 
 ---
