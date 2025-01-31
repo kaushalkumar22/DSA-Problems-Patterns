@@ -30,13 +30,6 @@ Next type is using two pointers with different speed of movement. Typically they
 
 <img alt="" src="https://assets.leetcode.com/users/images/ce642c9c-90c9-45af-a7e8-a5a70b146843_1648877375.811001.png" style="width: 900px; height: 150px;">
 
-- [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
-- [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
-- [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
-- [61. Rotate List](https://leetcode.com/problems/rotate-list/)
-- [143. Reorder List](https://leetcode.com/problems/reorder-list/)
-- [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
-
 ### Cyclic Detection
 - [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 - [457. Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)
@@ -51,7 +44,6 @@ Next type is using two pointers with different speed of movement. Typically they
 - [532. K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)
 
 ### Rotation
-- [1861. Rotating the Box](https://leetcode.com/problems/rotating-the-box/)
 - [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
 
 ### String
@@ -61,14 +53,10 @@ Next type is using two pointers with different speed of movement. Typically they
 ### Remove Duplicates
 - [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 - [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
-- [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
 - [1089. Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)
 
 ### Others
-- [1093. Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample/)
 - [763. Partition Labels](https://leetcode.com/problems/partition-labels/)
-- [481. Magical String](https://leetcode.com/problems/magical-string/)
-- [825. Friends of Appropriate Ages](https://leetcode.com/problems/friends-of-appropriate-ages/)
 - [845. Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)
 - [1574. Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)
 
@@ -83,8 +71,6 @@ In this category, you will be given 2 arrays or lists, then have to process them
 - [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 - [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
 - [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
-- [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)
-- [524. Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/)
 - [925. Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)
 
 #### Meet-in-the-Middle / Binary Search
@@ -101,11 +87,3 @@ In this category, you will be given 2 arrays or lists, then have to process them
 
 ---
 
-## 4.Split & Merge of an array / Divide & Conquer
-
-The last one is similiar to previous category but there is one thing is added. First, you need to split the given list into 2 separate lists and then do two pointers approach to merge or unify them. There aren't many tasks here.
-
-<img alt="" src="https://assets.leetcode.com/users/images/1d3c2ed7-95ca-440d-9693-f3e31360b826_1642138190.9125686.jpeg" style="width: 900px; height: 500px;">
-
-- [86. Partition List](https://leetcode.com/problems/partition-list/)
-- [148. Sort List](https://leetcode.com/problems/sort-list/)
