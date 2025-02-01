@@ -41,33 +41,24 @@
 
 ## Solution 1.
 
-```java
+```cpp
+// OJ: https://leetcode.com/problems/asteroid-collision/
+// Author: github.com/lzl124631x
+// Time: O(N)
+// Space: O(1)
 class Solution {
-    public int[] asteroidCollision(int[] asteroids) {
-        Stack<Integer> st = new Stack<>();
-        for(int ast :asteroids){
-            if(st.isEmpty() || st.peek()<0 || ast>0){
-                st.push(ast);
-            }else{
-                while(!st.isEmpty() && st.peek()>0 && ast<0 ){
-                    int top = st.pop();
-                    if(Math.abs(top) > Math.abs(ast)){
-                       ast = top;
-                    }else if (Math.abs(top) == Math.abs(ast)){
-                       ast = 0;
-                       break;
-                    }
-                }
-                if(ast!=0){
-                    st.push(ast);
-                  }
-               }
+public:
+    vector<int> asteroidCollision(vector<int>& A) {
+        vector<int> ans;
+        for (int n : A) {
+            if (ans.empty() || ans.back() < 0 || n > 0) ans.push_back(n);
+            else {
+                while (ans.size() && ans.back() > 0 && ans.back() < -n) ans.pop_back();
+                if (ans.size() && ans.back() == -n) ans.pop_back();
+                else if (ans.empty() || ans.back() < 0) ans.push_back(n);
+            }
         }
-    int[] res = new int[st.size()];
-    for(int i = st.size()-1 ;i>=0 ;i--){
-        res[i] = st.pop();
+        return ans;
     }
-    return res;
-    }
-}
+};
 ```
