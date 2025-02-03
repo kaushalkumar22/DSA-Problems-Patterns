@@ -1,1 +1,0 @@
-c:\users\kaush\onedrive\desktop\md\find-the-closest-palindrome.md
