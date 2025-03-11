@@ -59,6 +59,13 @@ public void BFS(int start) {
 - **Space Complexity**: \(O(V)\) for the queue and the visited set or array.
 
 ### Problem List
+- <a href="https://leetcode.com/problems/open-the-lock/" target="_blank" rel="noopener noreferrer">752. Open the Lock</a>
+- <a href="https://leetcode.com/problems/01-matrix/" target="_blank" rel="noopener noreferrer">542. 01 Matrix</a>
+- <a href="https://leetcode.com/problems/as-far-from-land-as-possible/" target="_blank" rel="noopener noreferrer">1162. As Far from Land as Possible</a>
+- <a href="https://leetcode.com/problems/rotting-oranges/" target="_blank" rel="noopener noreferrer">994. Rotting Oranges</a>
+- <a href="https://leetcode.com/problems/shortest-path-in-binary-matrix/" target="_blank" rel="noopener noreferrer">1091. Shortest Path in Binary Matrix</a>
+- <a href="https://leetcode.com/problems/snakes-and-ladders/" target="_blank" rel="noopener noreferrer">909. Snakes and Ladders</a>
+- <a href="https://leetcode.com/problems/word-ladder/" target="_blank" rel="noopener noreferrer">127. Word Ladder</a>
 
 - [752. Open the Lock](https://leetcode.com/problems/open-the-lock/)
 - [542. 01 Matrix](https://leetcode.com/problems/01-matrix/)
