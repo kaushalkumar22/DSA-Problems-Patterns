@@ -1,79 +1,54 @@
-# Graph Algorithms
+# Graph Algorithm
 ---
 
-## Breadth-First Search (BFS)
+## **Breadth-First Search (BFS)**  
 
-- BFS explores all the nodes at the present depth level before moving on to the next depth level.
-- BFS uses a queue to keep track of nodes that need to be explored.
-- BFS starts at a given node (often called the root in a tree or the starting node in a graph).
-- To avoid revisiting nodes, BFS uses a set or an array (depending on the implementation) to keep track of visited nodes.
+### **Key Concepts**  
+- Explores all nodes at the current depth before moving deeper.  
+- Uses a **queue** for traversal and a **visited set** to prevent reprocessing.  
+- Suitable for **shortest path** problems in **unweighted graphs**.  
 
-### Applications:
+### **Algorithm**  
+1. **Initialize**: Enqueue the starting node and mark it as visited.  
+2. **Process**: While the queue is not empty:  
+   - Dequeue a node and process it.  
+   - Enqueue all **unvisited** neighbors and mark them visited.  
 
-- Finding the shortest path in an unweighted graph.
-- Minimum cost from source to destination.
-- Level-order traversal of a tree.
-- BFS can be used to find all nodes in a connected component of an undirected graph.
-- BFS can be used to detect cycles in an undirected graph.
-- Solving puzzles with only a few possible moves.
-
-### Algorithm:
-
-1. Initialize the queue with the starting node and mark it as visited.
-2. While the queue is not empty:
-    - Dequeue a node from the queue.
-    - For each adjacent (neighboring) node:
-        - If the node has not been visited, mark it as visited and enqueue it.
-
+### **Implementation (Java)**  
 ```java
-// BFS traversal from a given source node
 public void BFS(int start) {
-    // Mark all vertices as not visited (false)
     boolean visited[] = new boolean[vertices];
-    // Create a queue for BFS
-    Queue<Integer> queue = new LinkedList<Integer>();
-    // Mark the starting node as visited and enqueue it
+    Queue<Integer> queue = new LinkedList<>();
+    
     visited[start] = true;
     queue.add(start);
+
     while (!queue.isEmpty()) {
-        // Dequeue a vertex from queue and print it
-        start = queue.poll();
-        System.out.print(start + " ");
-        // Get all adjacent vertices of the dequeued vertex
-        // If an adjacent has not been visited, mark it visited and enqueue it
-        Iterator<Integer> i = adj[start].listIterator();
-        while (i.hasNext()) {
-            int n = i.next();
-            if (!visited[n]) {
-                visited[n] = true;
-                queue.add(n);
+        int node = queue.poll();
+        System.out.print(node + " ");
+
+        for (int neighbor : adj[node]) {
+            if (!visited[neighbor]) {
+                visited[neighbor] = true;
+                queue.add(neighbor);
             }
         }
     }
 }
 ```
 
-### Complexity:
+### **Complexity Analysis**  
+- **Time Complexity**: \(O(V + E)\) (visits all nodes and edges).  
+- **Space Complexity**: \(O(V)\) (queue and visited storage).  
 
-- **Time Complexity**: \(O(V + E)\), where \(V\) is the number of vertices and \(E\) is the number of edges in the graph.
-- **Space Complexity**: \(O(V)\) for the queue and the visited set or array.
-
-### Problem List
-- <a href="https://leetcode.com/problems/open-the-lock/" target="_blank" rel="noopener noreferrer">752. Open the Lock</a>
-- <a href="https://leetcode.com/problems/01-matrix/" target="_blank" rel="noopener noreferrer">542. 01 Matrix</a>
-- <a href="https://leetcode.com/problems/as-far-from-land-as-possible/" target="_blank" rel="noopener noreferrer">1162. As Far from Land as Possible</a>
-- <a href="https://leetcode.com/problems/rotting-oranges/" target="_blank" rel="noopener noreferrer">994. Rotting Oranges</a>
-- <a href="https://leetcode.com/problems/shortest-path-in-binary-matrix/" target="_blank" rel="noopener noreferrer">1091. Shortest Path in Binary Matrix</a>
-- <a href="https://leetcode.com/problems/snakes-and-ladders/" target="_blank" rel="noopener noreferrer">909. Snakes and Ladders</a>
-- <a href="https://leetcode.com/problems/word-ladder/" target="_blank" rel="noopener noreferrer">127. Word Ladder</a>
-
-- [752. Open the Lock](https://leetcode.com/problems/open-the-lock/)
-- [542. 01 Matrix](https://leetcode.com/problems/01-matrix/)
-- [1162. As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)
-- [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
-- [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
-- [909. Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)
-- [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
+### **Practice Problems**  
+✅ [752. Open the Lock](https://leetcode.com/problems/open-the-lock/)  
+✅ [542. 01 Matrix](https://leetcode.com/problems/01-matrix/)  
+✅ [1162. As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)  
+✅ [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)  
+✅ [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)  
+✅ [909. Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)  
+✅ [127. Word Ladder](https://leetcode.com/problems/word-ladder/)  
 
 ---
 
