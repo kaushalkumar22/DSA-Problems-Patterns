@@ -22,6 +22,11 @@
 
 - [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 - [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+- [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
+- [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+- [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+- [763. Partition Labels](https://leetcode.com/problems/partition-labels/)
+- [845. Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)
 ---
 
 ## 3. Running from Beginning of Two Arrays / Merging Two Arrays
