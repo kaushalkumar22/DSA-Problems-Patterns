@@ -3,6 +3,20 @@
 
 --- 
 
+1. [**3. Longest Substring Without Repeating Characters**](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+2. [**159. Longest Substring with At Most Two Distinct Characters**](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)
+3. [**340. Longest Substring with At Most K Distinct Characters**](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)
+4. [**424. Longest Repeating Character Replacement**](https://leetcode.com/problems/longest-repeating-character-replacement/)
+5. [**1004. Max Consecutive Ones III**](https://leetcode.com/problems/max-consecutive-ones-iii/)
+6. [**1838. Frequency of the Most Frequent Element**](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
+7. [**992. Subarrays with K Different Integers**](https://leetcode.com/problems/subarrays-with-k-different-integers/)
+8. [**1423. Maximum Points You Can Obtain from Cards**](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)
+9. [**904. Fruit Into Baskets**](https://leetcode.com/problems/fruit-into-baskets/)
+10. [**862. Shortest Subarray with Sum at Least K**](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)
+11. [**209. Minimum Size Subarray Sum**](https://leetcode.com/problems/minimum-size-subarray-sum/)
+
+---
+
 ## Template 1: Sliding Window (Shrinkable)
 
 ```java
