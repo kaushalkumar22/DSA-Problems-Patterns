@@ -15,7 +15,6 @@ Monotonic stacks are useful in problems involving range queries, especially when
 2. **[1209. Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)**
 3. **[856. Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)**
 4. **[32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)**
-5. **[921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)**
 6. **[1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)**
 7. **[1047. Remove All Adjacent Duplicates in String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)**
 9. **[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)**
@@ -26,15 +25,12 @@ Monotonic stacks are useful in problems involving range queries, especially when
 14. **[224. Basic Calculator](https://leetcode.com/problems/basic-calculator/)**
 15. **[227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)**
 16. **[150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)**
-17. **[2390. Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)**
 18. **[946. Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)**
 19. **[22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)**
 20. **[735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)**
 23. **[394. Decode String](https://leetcode.com/problems/decode-string/)**
 24. **[402. Remove K Digits](https://leetcode.com/problems/remove-k-digits/)**
-25. **[1209. Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)**
 26. **[895. Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)**
-27. **[456. 132 Pattern](https://leetcode.com/problems/132-pattern/)**
 29. **[232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)**
 
 ```text
