@@ -1,4 +1,7 @@
 
+* [**205. Isomorphic Strings**](https://leetcode.com/problems/isomorphic-strings/)
+* [**290. Word Pattern**](https://leetcode.com/problems/word-pattern/)
+* [**242. Valid Anagram**](https://leetcode.com/problems/valid-anagram/)
 1. [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses)
 10. [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses)
 4. [1915. Number of Wonderful Substrings](https://leetcode.com/problems/number-of-wonderful-substrings)
