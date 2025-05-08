@@ -7,7 +7,6 @@
 * [**881. Boats to Save People**](https://leetcode.com/problems/boats-to-save-people/)
 * [**402. Remove K Digits**](https://leetcode.com/problems/remove-k-digits/)
 * [**621. Task Scheduler**](https://leetcode.com/problems/task-scheduler/)
-* [**763. Partition Labels**](https://leetcode.com/problems/partition-labels/)
 * [1094. Car Pooling](https://leetcode.com/problems/car-pooling/)
 * [410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)
 * [2439. Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/)
