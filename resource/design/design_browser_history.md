@@ -50,66 +50,83 @@ browserHistory.back(7);                   // You are in "google.com", you can mo
 
 ## Solution 1. Simulation
 
-Keep a `vector<string> A` as the history and `i` as the current position which is initialized as `0`.
-
-For `back` and `forward`, we just need to clamp the `i` to stay within `[0, A.size() - 1]`.
-
-For `visit`, we need to `resize` the `A` to size `i + 1` before pushing the `url` into history.
-
-```cpp
-// OJ: https://leetcode.com/problems/design-browser-history/
-// Author: github.com/lzl124631x
-// Time:
-//      BrowserHistory, back, forward: O(1)
-//      visit: O(N)
-// Space: O(N)
+```java
 class BrowserHistory {
-    vector<string> A;
-    int i = 0;
-public:
-    BrowserHistory(string homepage) {
-        A.push_back(homepage);
+    private List<String> history;
+    private int currentIndex;
+
+    public BrowserHistory(String homepage) {
+        history = new ArrayList<>();
+        history.add(homepage);
+        currentIndex = 0;
     }
-    void visit(string url) {
-        A.resize(i + 1);
-        A.push_back(url);
-        ++i;
+
+    public void visit(String url) {
+        // Remove forward history
+        while (history.size() > currentIndex + 1) {
+            history.remove(history.size() - 1);
+        }
+        history.add(url);
+        currentIndex++;
     }
-    string back(int steps) {
-        return A[i = max(i - steps, 0)];
+
+    public String back(int steps) {
+        currentIndex = Math.max(0, currentIndex - steps);
+        return history.get(currentIndex);
     }
-    string forward(int steps) {
-        return A[i = min(i + steps, (int)A.size() - 1)];
+
+    public String forward(int steps) {
+        currentIndex = Math.min(history.size() - 1, currentIndex + steps);
+        return history.get(currentIndex);
     }
-};
+}
+
 ```
 
-## Solution 2.
+## Solution 2.  
 
-Since it was `resize` that was taking `O(N)` time, we can avoid using `resize` by keeping track of the size of the history.
+Instead of removing entries (which is expensive in an ArrayList), we can:  
 
-```cpp
-// OJ: https://leetcode.com/problems/design-browser-history/
-// Author: github.com/lzl124631x
-// Time: O(1) for all
-// Space: O(N)
+Keep the full history list.  
+
+Track a currentIndex (current page) and a lastIndex (last valid page in history).  
+
+When we visit(), we overwrite or append new values and move currentIndex and lastIndex forward.  
+
+Ignore anything after lastIndex — it becomes inaccessible just like deleted forward history.  
+
+```java
 class BrowserHistory {
-    vector<string> A;
-    int i = 0, sz = 1;
-public:
-    BrowserHistory(string homepage) {
-        A.push_back(homepage);
+    private List<String> history;
+    private int currentIndex;
+    private int lastIndex;
+
+    public BrowserHistory(String homepage) {
+        history = new ArrayList<>();
+        history.add(homepage);
+        currentIndex = 0;
+        lastIndex = 0;
     }
-    void visit(string url) {
-        sz = i + 2;
-        if (A.size() < sz) A.push_back("");
-        A[++i] = url;
+
+    public void visit(String url) {
+        currentIndex++;
+        if (currentIndex < history.size()) {
+            history.set(currentIndex, url); // overwrite forward history
+        } else {
+            history.add(url); // append new entry
+        }
+        lastIndex = currentIndex; // discard forward history logically
     }
-    string back(int steps) {
-        return A[i = max(i - steps, 0)];
+
+    public String back(int steps) {
+        currentIndex = Math.max(0, currentIndex - steps);
+        return history.get(currentIndex);
     }
-    string forward(int steps) {
-        return A[i = min(i + steps, sz - 1)];
+
+    public String forward(int steps) {
+        currentIndex = Math.min(lastIndex, currentIndex + steps);
+        return history.get(currentIndex);
     }
-};
+}
+
 ```
