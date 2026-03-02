@@ -1,0 +1,15 @@
+# Trie
+
+1. [**Implement Trie (Prefix Tree)**](https://leetcode.com/problems/implement-trie-prefix-tree/)
+2. [**Implement Trie II (Prefix Tree)**](https://leetcode.com/problems/implement-trie-ii-prefix-tree/)
+3. [**Design Add and Search Words Data Structure**](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
+4. [**Prefix and Suffix Search**](https://leetcode.com/problems/prefix-and-suffix-search/)
+5. [**Stream of Characters**](https://leetcode.com/problems/stream-of-characters/)
+6. [**Number of Distinct Substrings in a String**](https://leetcode.com/problems/number-of-distinct-substrings-in-a-string/)
+7. [**Maximum XOR With an Element From Array**](https://leetcode.com/problems/maximum-xor-with-an-element-from-array/)
+8. [**Palindrome Pairs**](https://leetcode.com/problems/palindrome-pairs/)
+9. [**Search Suggestions System**](https://leetcode.com/problems/search-suggestions-system/)
+10. [**Longest Word in Dictionary**](https://leetcode.com/problems/longest-word-in-dictionary/)
+11. [**Implement Magic Dictionary**](https://leetcode.com/problems/implement-magic-dictionary/)
+12. [**Replace Words**](https://leetcode.com/problems/replace-words/)
+13. [**Word Search II**](https://leetcode.com/problems/word-search-ii/)
