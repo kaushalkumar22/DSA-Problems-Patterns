@@ -1,6 +1,7 @@
 package code.aa_practice;
 
 
+import java.util.Map;
 
 interface RateLimiterStrategy{
     boolean allow();
@@ -45,7 +46,7 @@ class TokenBucket implements RateLimiterStrategy{
     }
 }
 class RateLimiter{
-    Map<String , RateLimiterStrategy>
+    Map<String , RateLimiterStrategy> map;
     RateLimiterStrategy rateLimiterStrategy;
 
     public RateLimiter(RateLimiterStrategy rateLimiterStrategy){
