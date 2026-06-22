@@ -11,33 +11,33 @@ public class ABCABCWaitNotify {
 
     public synchronized void printA() throws InterruptedException {
         for (int i = 0; i < times; i++) {
-            while (state % 3 != 0) {
+            while (state!= 0) {
                 wait();
             }
             System.out.print("A");
-            state++;
+            state=1;
             notifyAll();
         }
     }
 
     public synchronized void printB() throws InterruptedException {
         for (int i = 0; i < times; i++) {
-            while (state % 3 != 1) {
+            while (state!= 1) {
                 wait();
             }
             System.out.print("B");
-            state++;
+            state=2;
             notifyAll();
         }
     }
 
     public synchronized void printC() throws InterruptedException {
         for (int i = 0; i < times; i++) {
-            while (state % 3 != 2) {
+            while (state!=2) {
                 wait();
             }
             System.out.print("C");
-            state++;
+            state=0;
             notifyAll();
         }
     }
