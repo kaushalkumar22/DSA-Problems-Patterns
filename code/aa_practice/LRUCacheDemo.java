@@ -25,6 +25,7 @@ We need an LRU (Least Recently Used) Cache with:
 This approach balances fast lookup with fast eviction.
 
 4. Edge Cases
+     // new code
 	• Capacity ≤ 0 → treat as invalid or always miss.
 	• Updating existing key → no size increase, just move to head.
 	• Must remove from both map and list when evicting.
